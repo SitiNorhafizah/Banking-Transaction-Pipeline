@@ -1,37 +1,60 @@
-1) Overview
+# 🏦 Banking Transaction ETL & Fraud Analytics Dashboard
 
-This project builds a production-style data warehouse for banking transactions using PostgreSQL and Python ETL processes. It transforms raw transaction data into a structured star schema optimized for analytics and fraud detection.
+A complete end-to-end **ETL pipeline and interactive dashboard** for banking transactions, with fraud detection and risk scoring. Designed for portfolio showcase to demonstrate **data engineering**, **data analysis**, and **dashboard development** skills.
 
-2) Architecture
-→ Raw CSV
-→ ETL (Pandas + SQLAlchemy)
-→ PostgreSQL Data Warehouse
-→ Star Schema (Fact + Dimensions)
-→ Analytics & Fraud Detection
+---
 
-3) Tech Stack
-→ Python
-→ PostgreSQL
-→ Pandas
-→ SQLAlchemy
-→ Streamlit (dashboard)
-→ Faker (data generation)
+## **📌 Project Overview**
 
-4) Data Model
-→ Fact Table: fact_transactions
+This project simulates a banking transaction system:
 
-→ Dimension Tables: *dim_customer
-                    *dim_account
-										*dim_merchant
-										*dim_location
-										
-→ Key Features: *Star schema modeling
-                *Foreign key enforcement
-								*Idempotent ETL design
-								*Deduplication handling
-								*Fraud flag logic
-								*Data integrity constraints
+- **ETL pipeline**: Extracts raw transaction data from CSV, loads into a PostgreSQL data warehouse, and populates **dimension** and **fact tables**.
+- **Data warehouse**: Star schema with `dim_customer`, `dim_account`, `dim_merchant`, `dim_location`, and `fact_transactions`.
+- **Fraud analytics dashboard**: Built with Streamlit, showing KPIs, risk scoring, and interactive charts.
 
-5) How to Run
-pip install -r requirements.txt
-python etl/load_from_csv.py
+---
+
+## **💻 Tech Stack**
+
+- **Python** (Pandas, SQLAlchemy, Streamlit)  
+- **PostgreSQL** for data warehouse  
+- **Plotly** for interactive charts  
+- ETL best practices: incremental loads, idempotency, FK validation
+
+---
+
+## **🚀 Features**
+
+### **ETL Pipeline**
+- Load CSV data into dimension and fact tables
+- Idempotent insertion: repeated runs do not duplicate data
+- Foreign key and data validation
+
+### **Dashboard Features**
+1. **KPIs**: Total transactions, total amount, fraud cases
+2. **Fraud Risk Scoring**: Top risky accounts, merchants, and transaction types
+3. **Interactive Filtering**: Filter by account, merchant, and date range
+4. **Charts & Hover Info**: Clean, interactive visualizations
+5. **Downloadable Reports**: Export CSV summaries for stakeholders
+
+---
+
+## **📂 Repository Structure**
+Banking-Transaction-Pipeline/
+│
+├── README.md
+├── .gitignore
+├── requirements.txt
+│
+├── data/
+│ └── transactions_raw.csv
+│
+├── etl/
+│ ├── etl_phase2.py # Main ETL pipeline
+│ ├── load_from_csv.py # Load CSV into DW
+│ └── reset.py # Reset database tables
+│
+├── dashboard/
+│ └── app.py # Streamlit dashboard
+│
+└── docs/ # Screenshots / GIFs / reports
