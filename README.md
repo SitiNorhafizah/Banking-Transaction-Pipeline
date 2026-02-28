@@ -1,5 +1,3 @@
----
-
 # 🏦 Banking Transaction ETL & Fraud Analytics Platform
 
 An end-to-end **Data Engineering & Analytics project** that simulates a banking transaction system with:
