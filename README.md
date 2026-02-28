@@ -208,6 +208,12 @@ streamlit run dashboard/app.py
 * 🚨 Automated fraud alerting system
 
 ---
+### 🔐 Secrets & Configuration
+
+Database credentials are stored in `.env` (ignored by Git).  
+Copy `.env.example` to `.env` and update values before running locally.
+
+---
 
 ## 👩‍💻 Author
 
