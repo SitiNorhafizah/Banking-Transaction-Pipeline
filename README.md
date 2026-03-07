@@ -1,33 +1,25 @@
-# 🏦 Banking Transaction ETL & Fraud Analytics Platform
+🏦 Banking Transaction ETL & Fraud Analytics Platform
 
-An end-to-end **Data Engineering & Analytics project** that simulates a banking transaction system with:
+An end-to-end Data Engineering & Analytics project that simulates a banking transaction system with:
 
-* A PostgreSQL **data warehouse (Star Schema)**
-* A production-style **ETL pipeline**
-* An interactive **fraud analytics dashboard**
-* Risk scoring & downloadable reports
+    A PostgreSQL data warehouse (Star Schema)
+    A production-style ETL pipeline
+    An interactive fraud analytics dashboard
+    Risk scoring & downloadable reports
 
-This project demonstrates the complete data lifecycle:
-**ingestion → transformation → storage → analytics → visualization**
-
----
-
-## 🚀 Project Objective
+This project demonstrates the complete data lifecycle: ingestion → transformation → storage → analytics → visualization
+🚀 Project Objective
 
 To simulate a real-world banking environment where raw transaction data is:
 
-1. Extracted from CSV files
-2. Transformed into dimensional models
-3. Loaded into a PostgreSQL data warehouse
-4. Visualized through an interactive Streamlit dashboard
+    Extracted from CSV files
+    Transformed into dimensional models
+    Loaded into a PostgreSQL data warehouse
+    Visualized through an interactive Streamlit dashboard
 
 The system supports fraud detection, risk scoring, and filtered reporting for stakeholders.
+🏗 System Architecture
 
----
-
-## 🏗 System Architecture
-
-```
 Raw CSV
    ↓
 Python ETL (Pandas + SQLAlchemy)
@@ -35,102 +27,88 @@ Python ETL (Pandas + SQLAlchemy)
 PostgreSQL Data Warehouse (Star Schema)
    ↓
 Streamlit Dashboard (Interactive Analytics)
-```
 
----
+🧱 Data Warehouse Design
+Star Schema Model
+Dimension Tables
 
-## 🧱 Data Warehouse Design
+    dim_customer
+    dim_account
+    dim_merchant
+    dim_location
 
-### Star Schema Model
+Fact Table
 
-### Dimension Tables
+    fact_transactions
+        transaction_id
+        account_id
+        merchant_id
+        amount
+        timestamp
+        fraud_flag
 
-* `dim_customer`
-* `dim_account`
-* `dim_merchant`
-* `dim_location`
+ETL Guarantees
 
-### Fact Table
+    ✅ Idempotent loads (no duplicate inserts)
+    ✅ Referential integrity
+    ✅ Clean dimensional modeling
+    ✅ Structured transformation logic
 
-* `fact_transactions`
+📊 Dashboard Features
 
-  * transaction_id
-  * account_id
-  * merchant_id
-  * amount
-  * timestamp
-  * fraud_flag
+Built using Streamlit + Plotly
+📌 Key Metrics (KPIs)
 
-### ETL Guarantees
+    Total Transactions
+    Total Transaction Amount
+    Fraud Cases
 
-* ✅ Idempotent loads (no duplicate inserts)
-* ✅ Referential integrity
-* ✅ Clean dimensional modeling
-* ✅ Structured transformation logic
+📈 Daily Transaction Volume
 
----
+    Interactive line chart
+    Hover tooltips
+    Dynamic filtering
 
-## 📊 Dashboard Features
+⚠ Fraud Risk Scoring
 
-Built using **Streamlit + Plotly**
+    Top Risky Accounts
+    Top Risky Merchants
+    Fraud intensity visualization
 
-### 📌 Key Metrics (KPIs)
+🔎 Interactive Filters
 
-* Total Transactions
-* Total Transaction Amount
-* Fraud Cases
+    Account ID
+    Merchant
+    Location
+    Date Range
 
-### 📈 Daily Transaction Volume
+💾 Downloadable Reports
 
-* Interactive line chart
-* Hover tooltips
-* Dynamic filtering
+    Export filtered transactions as CSV
 
-### ⚠ Fraud Risk Scoring
+🛠 Tech Stack
 
-* Top Risky Accounts
-* Top Risky Merchants
-* Fraud intensity visualization
+Backend / ETL
 
-### 🔎 Interactive Filters
+    Python
+    Pandas
+    SQLAlchemy
 
-* Account ID
-* Merchant
-* Location
-* Date Range
+Database
 
-### 💾 Downloadable Reports
+    PostgreSQL
 
-* Export filtered transactions as CSV
+Visualization
 
----
+    Streamlit
+    Plotly
 
-## 🛠 Tech Stack
+Environment
 
-**Backend / ETL**
+    Virtual Environment (venv)
 
-* Python
-* Pandas
-* SQLAlchemy
+📂 Repository Structure
 
-**Database**
-
-* PostgreSQL
-
-**Visualization**
-
-* Streamlit
-* Plotly
-
-**Environment**
-
-* Virtual Environment (venv)
-
----
-
-## 📂 Repository Structure
-
-```
 Banking-Transaction-Pipeline/
 │
 ├── data/                  # Raw transaction CSV
@@ -145,80 +123,55 @@ Banking-Transaction-Pipeline/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-```
 
----
+⚙ How to Run Locally
+1️⃣ Create Virtual Environment
 
-## ⚙ How to Run Locally
-
-### 1️⃣ Create Virtual Environment
-
-```bash
 python3 -m venv venv
 source venv/bin/activate
-```
 
-### 2️⃣ Install Dependencies
+2️⃣ Install Dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
-### 3️⃣ Ensure PostgreSQL Is Running
+3️⃣ Ensure PostgreSQL Is Running
 
 Create database:
 
-```sql
 CREATE DATABASE banking_dw;
-```
 
-### 4️⃣ Run ETL Pipeline
+4️⃣ Run ETL Pipeline
 
-```bash
 python etl/load_from_csv.py
-```
 
-### 5️⃣ Launch Dashboard
+5️⃣ Launch Dashboard
 
-```bash
 streamlit run dashboard/app.py
-```
 
----
+🎯 Skills Demonstrated
 
-## 🎯 Skills Demonstrated
+    Data Warehouse Modeling (Star Schema)
+    ETL Pipeline Design
+    Incremental & Idempotent Loading
+    SQL Joins & Foreign Keys
+    Data Validation
+    Fraud Risk Scoring Logic
+    Interactive Dashboard Development
+    Production-style Project Structure
 
-* Data Warehouse Modeling (Star Schema)
-* ETL Pipeline Design
-* Incremental & Idempotent Loading
-* SQL Joins & Foreign Keys
-* Data Validation
-* Fraud Risk Scoring Logic
-* Interactive Dashboard Development
-* Production-style Project Structure
+🔮 Future Enhancements
 
----
+    🐳 Docker containerization
+    ⏰ Apache Airflow DAG scheduling
+    🤖 Machine Learning fraud prediction
+    📡 Real-time streaming ingestion
+    🚨 Automated fraud alerting system
 
-## 🔮 Future Enhancements
+🔐 Secrets & Configuration
 
-* 🐳 Docker containerization
-* ⏰ Apache Airflow DAG scheduling
-* 🤖 Machine Learning fraud prediction
-* 📡 Real-time streaming ingestion
-* 🚨 Automated fraud alerting system
+Database credentials are stored in .env (ignored by Git).
+Copy .env.example to .env and update values before running locally.
 
----
-### 🔐 Secrets & Configuration
+👩‍💻 Author
 
-Database credentials are stored in `.env` (ignored by Git).  
-Copy `.env.example` to `.env` and update values before running locally.
-
----
-
-## 👩‍💻 Author
-
-Portfolio project built to demonstrate **Data Engineering and Analytics capabilities** in a financial domain setting.
-
----
-
-
+Portfolio project built to demonstrate Data Engineering and Analytics capabilities in a financial domain setting.
