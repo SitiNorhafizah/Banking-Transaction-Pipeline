@@ -1,11 +1,17 @@
 import psycopg2
 
 conn = psycopg2.connect(
-    host="postgres",
-    database="banking_dw",
-    user="admin",
-    password="admin"
+    DB_HOST = os.getenv("DB_HOST",
+    DB_USER = os.getenv("POSTGRES_USER"),
+    DB_PASSWORD = os.getenv("POSTGRES_PASSWORD")
+    DB_NAME = os.getenv("POSTGRES_DB")
 )
+
+)
+DB_PORT = os.getenv("DB_PORT")
+
+
+
 
 cur = conn.cursor()
 
