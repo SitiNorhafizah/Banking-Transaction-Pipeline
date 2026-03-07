@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from sqlalchemy import create_engine
 import plotly.express as px 
+import os
 
 # -------------------------------
 # PAGE CONFIG
@@ -17,16 +18,27 @@ st.title("🏦 Banking Transaction & Fraud Analytics Dashboard")
 # -------------------------------
 # DATABASE CONNECTION
 # -------------------------------
-engine = create_engine("postgresql+psycopg2://admin:admin123@localhost:5433/banking_dw")
+DB_HOST = os.getenv("DB_HOST", "localhost")
+DB_PORT = os.getenv("DB_PORT", "5433")
+DB_USER = os.getenv("POSTGRES_USER", "admin")
+DB_PASSWORD = os.getenv("POSTGRES_PASSWORD", "admin123")
+DB_NAME = os.getenv("POSTGRES_DB", "banking_dw")
 
-# --- Load fact table with merchant and location ---
+engine = create_engine(
+    f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+)
+
+# --- Load fact table with merchant, location, and ML fraud score ---
 fact = pd.read_sql("""
-    SELECT f.transaction_id, f.account_id, f.merchant_id, f.amount, f.timestamp, f.fraud_flag,
+    SELECT f.transaction_id, f.account_id, f.merchant_id, f.amount, f.timestamp, f.fraud_flag, f.fraud_score,
            m.merchant_name, l.city AS location
     FROM fact_transactions f
     LEFT JOIN dim_merchant m ON f.merchant_id = m.merchant_id
     LEFT JOIN dim_location l ON m.location_id = l.location_id
 """, engine)
+
+# Deduplicate by transaction_id to avoid inflated totals
+fact = fact.drop_duplicates(subset=["transaction_id"])
 
 # Convert timestamp to datetime
 fact['timestamp'] = pd.to_datetime(fact['timestamp'])
@@ -62,10 +74,53 @@ filtered = fact[
 # KPIs
 # -------------------------------
 st.subheader("📊 Key Metrics")
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4, col5 = st.columns(5)
 col1.metric("Total Transactions", len(filtered))
 col2.metric("Total Amount", f"${filtered['amount'].sum():,.2f}")
 col3.metric("Fraud Cases", filtered['fraud_flag'].sum())
+col4.metric("Max Fraud Score", round(filtered['fraud_score'].max(), 2))
+col5.metric("Avg Fraud Score", round(filtered['fraud_score'].mean(), 2))
+
+# -------------------------------
+# FRAUD ALERTS
+# -------------------------------
+st.subheader("🚨 Potential Fraud Alerts")
+high_risk = filtered[filtered["fraud_score"] >= 0.7]
+
+if len(high_risk) > 0:
+    st.warning(f"{len(high_risk)} high-risk transactions detected!")
+    st.dataframe(
+        high_risk[
+            [
+                "transaction_id",
+                "account_id",
+                "merchant_name",
+                "location",
+                "amount",
+                "fraud_score",
+                "timestamp",
+            ]
+        ].sort_values("fraud_score", ascending=False)
+    )
+else:
+    st.success("No high-risk fraud detected.")
+
+# -------------------------------
+# FRAUD SCORE DISTRIBUTION
+# -------------------------------
+st.subheader("📊 Fraud Score Distribution")
+fig_dist = px.histogram(
+    filtered,
+    x="fraud_score",
+    nbins=20,
+    title="Fraud Risk Score Distribution",
+    labels={"fraud_score": "Fraud Score"},
+)
+fig_dist.update_layout(
+    plot_bgcolor="#f9f9f9",
+    paper_bgcolor="#f0f2f6",
+)
+st.plotly_chart(fig_dist, use_container_width=True)
 
 # -------------------------------
 # DAILY TRANSACTION VOLUME (LINE CHART)
@@ -93,28 +148,28 @@ st.plotly_chart(fig_daily, use_container_width=True)
 # FRAUD RISK SCORING (TOP ACCOUNTS & MERCHANTS)
 # -------------------------------
 st.subheader("⚠️ Top Risky Accounts & Merchants")
-top_accounts = filtered.groupby('account_id')['fraud_flag'].sum().sort_values(ascending=False).head(10)
-top_merchants = filtered.groupby('merchant_name')['fraud_flag'].sum().sort_values(ascending=False).head(10)
+top_accounts = filtered.groupby('account_id')['fraud_score'].mean().sort_values(ascending=False).head(10)
+top_merchants = filtered.groupby('merchant_name')['fraud_score'].mean().sort_values(ascending=False).head(10)
 
 fig_accounts = px.bar(
     top_accounts.reset_index(),
     x='account_id',
-    y='fraud_flag',
-    title="Top Risky Accounts",
-    labels={'fraud_flag': 'Fraud Count', 'account_id': 'Account ID'},
-    color='fraud_flag',
+    y='fraud_score',
+    title="Top Risky Accounts (ML Score)",
+    labels={'fraud_score': 'Avg Fraud Score', 'account_id': 'Account ID'},
+    color='fraud_score',
     color_continuous_scale=px.colors.sequential.Reds,
-    hover_data={'fraud_flag': True, 'account_id': True}
+    hover_data={'fraud_score': True, 'account_id': True}
 )
 fig_merchants = px.bar(
     top_merchants.reset_index(),
     x='merchant_name',
-    y='fraud_flag',
-    title="Top Risky Merchants",
-    labels={'fraud_flag': 'Fraud Count', 'merchant_name': 'Merchant'},
-    color='fraud_flag',
+    y='fraud_score',
+    title="Top Risky Merchants (ML Score)",
+    labels={'fraud_score': 'Avg Fraud Score', 'merchant_name': 'Merchant'},
+    color='fraud_score',
     color_continuous_scale=px.colors.sequential.Reds,
-    hover_data={'fraud_flag': True, 'merchant_name': True}
+    hover_data={'fraud_score': True, 'merchant_name': True}
 )
 
 col1, col2 = st.columns(2)
@@ -137,4 +192,7 @@ st.download_button(
 # TRANSACTION TABLE
 # -------------------------------
 st.subheader("📋 Transaction Details")
-st.dataframe(filtered.sort_values('timestamp', ascending=False))
+st.dataframe(
+    filtered.sort_values("timestamp", ascending=False)
+    .style.highlight_max(subset=["fraud_score"], color="red")
+)

@@ -4,6 +4,8 @@ __pycache__/
 *.pyo
 *.pyd
 venv/
+.env
+.env.*
 
 # Jupyter
 .ipynb_checkpoints
@@ -21,3 +23,10 @@ Thumbs.db
 # IDEs
 .vscode/
 .idea/
+
+postgres_data/
+*.log
+
+# ML model
+model.pkl
+model.pkl

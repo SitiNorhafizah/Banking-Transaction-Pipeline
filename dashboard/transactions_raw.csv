@@ -1,0 +1,1049 @@
+transaction_id,account_id,timestamp,amount,merchant,location,transaction_type,channel,status
+TX1000,AC107,2026-01-08 14:36:00,1670.85,CarDealer,North Judithbury,payment,atm,success
+TX1001,AC100,2026-01-07 12:55:00,1305.0,Grab,East Jill,payment,online,success
+TX1002,AC113,2026-01-03 14:17:00,10740.58,CarDealer,New Roberttown,transfer,atm,success
+TX1003,AC110,2026-01-09 23:12:00,12087.48,CoffeeShop,East Jessetown,payment,online,success
+TX1004,AC111,2026-01-02 09:19:00,5699.53,Shop,Lake Debra,transfer,online,success
+TX1005,AC119,2026-01-05 15:21:00,1182.92,CoffeeShop,Robinsonshire,withdrawal,online,success
+TX1006,AC107,2026-01-03 22:13:00,11596.25,Grab,Lisatown,transfer,pos,success
+TX1007,AC108,2026-01-03 04:24:00,5553.34,Grab,Lake Roberto,withdrawal,atm,success
+TX1008,AC117,2026-01-03 04:37:00,6934.44,CarDealer,Ericmouth,withdrawal,pos,success
+TX1009,AC112,2026-01-03 22:32:00,12327.22,CoffeeShop,North Noahstad,payment,online,success
+TX1010,AC112,2026-01-09 12:02:00,4720.85,SuperMart,Cassandraton,payment,pos,success
+TX1011,AC118,2026-01-07 11:10:00,3941.86,SuperMart,Herrerafurt,transfer,online,success
+TX1012,AC103,2026-01-06 22:45:00,-1364.55,CarDealer,New Kellystad,withdrawal,online,success
+TX1013,AC114,2026-01-02 01:20:00,5772.12,Shop,Lake Chad,transfer,atm,success
+TX1013_1,AC114,2026-01-02 01:22:32,5772.12,Shop,Lake Chad,transfer,atm,success
+TX1013_2,AC114,2026-01-02 01:21:14,5772.12,Shop,Lake Chad,transfer,atm,success
+TX1014,AC110,2026-01-09 02:09:00,13271.94,Grab,Port Keith,transfer,pos,success
+TX1014_1,AC110,2026-01-09 02:11:32,13271.94,Grab,Port Keith,transfer,pos,success
+TX1014_2,AC110,2026-01-09 02:11:52,13271.94,Grab,Port Keith,transfer,pos,success
+TX1015,AC105,2026-01-09 12:31:00,3951.57,Shop,Port Jesseville,payment,atm,success
+TX1016,AC105,2026-01-08 06:17:00,2984.47,Shop,Ramirezstad,withdrawal,online,success
+TX1017,AC109,2026-01-02 14:32:00,13936.55,CarDealer,West Michael,payment,online,success
+TX1018,AC117,2026-01-02 07:23:00,10978.88,CarDealer,Jacquelineland,payment,atm,success
+TX1019,AC106,2026-01-04 08:22:00,7915.58,Shop,New Jessica,withdrawal,atm,success
+TX1020,AC116,2026-01-08 23:24:00,9748.52,SuperMart,South Noah,payment,online,success
+TX1021,AC100,2026-01-08 00:38:00,8309.27,Grab,Lake Mark,withdrawal,atm,success
+TX1022,AC107,2026-01-01 16:34:00,12894.67,CoffeeShop,East Lydiamouth,withdrawal,pos,success
+TX1023,AC115,2026-01-11 08:56:00,8566.08,SuperMart,Adamsborough,payment,online,success
+TX1024,AC101,2026-01-06 03:39:00,6167.12,Grab,Jasonfort,payment,pos,success
+TX1025,AC114,2026-01-02 13:50:00,3730.6,CarDealer,Wilkersonmouth,transfer,online,success
+TX1026,AC117,2026-01-02 04:35:00,6647.52,Grab,West Donald,payment,atm,success
+TX1027,AC105,2026-01-02 09:28:00,13895.58,SuperMart,Juliechester,transfer,pos,success
+TX1028,AC112,2026-01-02 00:00:00,-2470.39,CoffeeShop,Coxberg,transfer,pos,success
+TX1029,AC104,2026-01-10 05:54:00,8336.97,CarDealer,Daviston,transfer,online,success
+TX1030,AC101,2026-01-07 12:03:00,915.3,Shop,East Courtneychester,transfer,atm,success
+TX1031,AC105,2026-01-01 23:31:00,14411.72,Grab,South Patrickmouth,withdrawal,online,success
+TX1032,AC118,2026-01-02 16:44:00,14124.0,Shop,Tashatown,payment,atm,success
+TX1033,AC106,2026-01-07 18:20:00,7842.22,CoffeeShop,Lake Nicoleview,payment,pos,success
+TX1034,AC102,2026-01-04 17:55:00,6858.91,Grab,Danielchester,transfer,atm,success
+TX1035,AC104,2026-01-02 04:00:00,8064.98,CoffeeShop,South Aaron,payment,online,success
+TX1036,AC116,2026-01-10 19:40:00,8148.73,Grab,Teresaburgh,withdrawal,atm,success
+TX1037,AC103,2026-01-11 07:47:00,2015.23,Shop,Port Colleenhaven,payment,pos,success
+TX1038,AC108,2026-01-05 05:37:00,3054.76,Shop,East Nathaniel,transfer,pos,success
+TX1039,AC101,2026-01-02 09:12:00,9514.63,Grab,New Stephanie,transfer,online,success
+TX1040,AC117,2026-01-09 18:24:00,6628.09,Grab,New Mariotown,payment,online,success
+TX1041,AC118,2026-01-03 00:42:00,8184.31,Shop,West Natashaport,payment,pos,success
+TX1042,AC101,2026-01-11 13:28:00,13996.39,CoffeeShop,North John,payment,atm,success
+TX1043,AC119,2026-01-10 05:01:00,8398.69,CarDealer,North Jessicaland,payment,online,success
+TX1044,AC110,2026-01-11 08:41:00,6185.0,SuperMart,East Donna,withdrawal,atm,success
+TX1045,AC101,2026-01-10 07:00:00,10519.47,SuperMart,West Allison,payment,online,success
+TX1046,AC107,2026-01-04 19:20:00,12308.23,Grab,Brandtside,withdrawal,online,success
+TX1047,AC116,2026-01-02 02:57:00,14503.37,SuperMart,Lake Larry,withdrawal,atm,success
+TX1048,AC108,2026-01-11 07:29:00,14556.04,Grab,Samuelhaven,payment,atm,success
+TX1049,AC103,2026-01-04 21:39:00,6546.47,SuperMart,Martinezbury,withdrawal,online,success
+TX1050,AC106,2026-01-01 08:27:00,7799.29,CoffeeShop,West Andrewside,transfer,online,success
+TX1051,AC109,2026-01-08 10:09:00,4709.42,Shop,New Jeffrey,transfer,atm,success
+TX1052,AC112,2026-01-04 16:44:00,8316.63,CarDealer,Lake Crystalbury,withdrawal,atm,success
+TX1053,AC118,2026-01-01 08:06:00,4558.82,Shop,North Micheleland,withdrawal,pos,success
+TX1054,AC105,2026-01-03 18:21:00,7668.1,Grab,West Elizabeth,transfer,atm,success
+TX1055,AC109,2026-01-02 09:30:00,12276.53,CarDealer,New David,payment,online,success
+TX1056,AC114,2026-01-06 17:44:00,9169.5,SuperMart,Sanchezfort,withdrawal,atm,success
+TX1057,AC100,2026-01-06 22:59:00,5995.39,Grab,Leeville,transfer,online,success
+TX1058,AC103,2026-01-07 05:26:00,6968.78,SuperMart,Gomezchester,payment,pos,success
+TX1059,AC114,2026-01-08 02:35:00,4760.15,Shop,Shieldston,withdrawal,atm,success
+TX1060,AC115,2026-01-06 09:45:00,13458.22,SuperMart,North Richardmouth,transfer,online,success
+TX1061,AC108,2026-01-10 04:21:00,7819.98,SuperMart,East Jamesside,payment,atm,success
+TX1062,AC104,2026-01-04 23:18:00,13395.51,CarDealer,Taylorburgh,transfer,atm,success
+TX1063,AC113,2026-01-06 01:17:00,6114.58,Grab,Stevenland,payment,pos,success
+TX1064,AC118,2026-01-09 05:55:00,293.96,SuperMart,Mortonside,transfer,online,success
+TX1065,AC113,2026-01-05 18:29:00,12801.87,Shop,North Deniseside,withdrawal,atm,success
+TX1066,AC115,2026-01-03 20:13:00,7323.95,Grab,North Sarabury,transfer,pos,success
+TX1067,AC104,2026-01-09 13:44:00,2476.51,Shop,South Todd,withdrawal,online,success
+TX1068,AC104,2026-01-08 21:02:00,407.5,SuperMart,Port Richard,payment,online,success
+TX1069,AC112,2026-01-06 12:09:00,4903.36,CoffeeShop,East Nicholasfurt,transfer,pos,success
+TX1070,AC111,2026-01-09 20:32:00,8091.75,CarDealer,Saramouth,withdrawal,online,success
+TX1071,AC100,2026-01-09 21:57:00,466.42,Shop,Rodneyside,payment,online,success
+TX1072,AC108,2026-01-07 18:00:00,14216.41,CoffeeShop,Mooreport,payment,atm,success
+TX1073,AC109,2026-01-02 15:16:00,11667.1,Grab,North Beth,withdrawal,online,success
+TX1074,AC106,2026-01-11 15:57:00,14372.63,Grab,Lake Leeton,withdrawal,atm,success
+TX1075,AC119,2026-01-09 06:22:00,11587.44,Grab,Shawhaven,withdrawal,online,success
+TX1076,AC100,2026-01-05 13:11:00,1035.28,SuperMart,North Susan,transfer,online,success
+TX1077,AC113,2026-01-11 11:27:00,12430.78,CarDealer,Port Jacobland,withdrawal,atm,success
+TX1078,AC114,2026-01-10 12:41:00,13794.35,SuperMart,South David,withdrawal,atm,success
+TX1079,AC114,2026-01-10 18:50:00,14019.39,CarDealer,New Brooke,transfer,atm,success
+TX1080,AC115,2026-01-01 15:50:00,7415.1,CarDealer,South Dianeshire,transfer,pos,success
+TX1081,AC116,2026-01-09 07:28:00,13201.73,CarDealer,Sarahborough,payment,online,success
+TX1082,AC115,2026-01-09 23:01:00,3605.62,SuperMart,Johnfurt,payment,online,success
+TX1083,AC115,2026-01-04 02:26:00,4593.78,Shop,Lake Debbie,withdrawal,pos,success
+TX1084,AC109,2026-01-05 02:19:00,5277.81,CoffeeShop,Stewartland,payment,online,success
+TX1085,AC105,2026-01-09 18:51:00,8038.42,CarDealer,South Christineshire,payment,atm,success
+TX1086,AC103,2026-01-09 23:35:00,7870.03,CarDealer,North Amandahaven,transfer,online,success
+TX1087,AC101,2026-01-09 09:20:00,8012.49,Shop,Davidstad,transfer,atm,success
+TX1088,AC118,2026-01-09 21:33:00,7363.69,CoffeeShop,East Mikeburgh,transfer,pos,success
+TX1089,AC103,2026-01-01 22:01:00,3787.92,Grab,Bassport,transfer,pos,success
+TX1090,AC109,2026-01-01 22:38:00,2276.75,Grab,Lake Lisaport,payment,online,success
+TX1091,AC116,2026-01-08 02:46:00,11861.32,SuperMart,East Josephville,transfer,pos,success
+TX1092,AC119,2026-01-06 05:05:00,4581.4,Grab,West Juan,payment,atm,success
+TX1093,AC105,2026-01-03 02:53:00,3598.74,Grab,Lake Matthew,transfer,pos,success
+TX1094,AC114,2026-01-01 16:54:00,3472.91,Grab,Williamview,withdrawal,online,success
+TX1095,AC106,2026-01-08 10:40:00,8847.25,SuperMart,North Cynthiaview,payment,atm,success
+TX1096,AC105,2026-01-04 08:32:00,12399.64,CoffeeShop,North Matthewberg,withdrawal,atm,success
+TX1097,AC112,2026-01-06 07:55:00,1866.18,CoffeeShop,Evanmouth,withdrawal,atm,success
+TX1098,AC119,2026-01-01 18:53:00,13341.45,CoffeeShop,Hoffmanville,payment,online,success
+TX1099,AC108,2026-01-11 02:58:00,8628.41,Shop,Lake Rebeccaside,payment,online,success
+TX1100,AC115,2026-01-04 11:57:00,2723.16,Grab,Port Mikeside,transfer,pos,success
+TX1101,AC115,2026-01-02 12:33:00,12866.14,CoffeeShop,South David,withdrawal,pos,success
+TX1102,AC103,2026-01-06 12:11:00,1321.81,SuperMart,Michaelton,withdrawal,online,success
+TX1103,AC119,2026-01-06 00:50:00,814.01,SuperMart,Jasonbury,withdrawal,pos,success
+TX1104,AC115,2026-01-07 13:58:00,1966.07,Grab,West Kimberlychester,payment,atm,success
+TX1105,AC113,2026-01-03 03:14:00,-4661.94,Grab,East Michelle,payment,online,success
+TX1106,AC109,2026-01-10 19:13:00,2310.41,Shop,South Angel,withdrawal,pos,success
+TX1107,AC112,2026-01-06 16:56:00,3656.72,CarDealer,Kimberlychester,withdrawal,atm,success
+TX1108,AC113,2026-01-02 03:03:00,4144.43,CoffeeShop,West Erik,withdrawal,pos,success
+TX1109,AC115,2026-01-04 17:31:00,12562.3,CarDealer,South Monicafort,transfer,atm,success
+TX1110,AC110,2026-01-10 00:18:00,8151.91,CarDealer,East Lisa,withdrawal,online,success
+TX1111,AC115,2026-01-10 03:46:00,6162.22,SuperMart,Baileybury,transfer,atm,success
+TX1112,AC116,2026-01-03 01:32:00,-7430.43,Shop,North Donna,transfer,online,success
+TX1113,AC104,2026-01-07 07:37:00,-13656.71,SuperMart,Murphyland,withdrawal,online,success
+TX1114,AC102,2026-01-04 08:22:00,5079.08,CoffeeShop,Michaelhaven,withdrawal,atm,success
+TX1115,AC117,2026-01-09 12:15:00,13311.69,Grab,Frazierside,withdrawal,online,success
+TX1116,AC113,2026-01-04 14:28:00,14961.39,Grab,Sheilaville,withdrawal,atm,success
+TX1117,AC110,2026-01-09 05:30:00,-4492.69,Grab,Gregoryview,transfer,pos,success
+TX1118,AC105,2026-01-07 09:02:00,6181.36,CarDealer,North Candacestad,payment,online,success
+TX1119,AC104,2026-01-09 02:32:00,3613.21,CarDealer,Samuelhaven,transfer,atm,success
+TX1120,AC109,2026-01-01 10:33:00,13483.73,Shop,South Rachelborough,payment,online,success
+TX1121,AC108,2026-01-08 00:26:00,4488.01,SuperMart,Bradleychester,transfer,online,success
+TX1122,AC118,2026-01-02 13:07:00,3558.85,CoffeeShop,New Saraside,withdrawal,pos,success
+TX1123,AC101,2026-01-05 20:04:00,4117.93,Shop,West Ryan,withdrawal,pos,success
+TX1124,AC111,2026-01-10 03:49:00,11983.1,CarDealer,Cindyville,withdrawal,online,success
+TX1125,AC104,2026-01-09 12:51:00,11512.29,Grab,Williamchester,withdrawal,atm,success
+TX1126,AC102,2026-01-01 17:06:00,8694.03,CoffeeShop,Richardport,transfer,atm,success
+TX1127,AC116,2026-01-10 06:46:00,8091.58,Shop,East Robert,transfer,online,success
+TX1128,AC110,2026-01-06 19:34:00,14510.79,Grab,Byrdburgh,transfer,online,success
+TX1129,AC112,2026-01-11 02:52:00,10145.18,Shop,Richardtown,transfer,online,success
+TX1129_1,AC112,2026-01-11 02:54:08,10145.18,Shop,Richardtown,transfer,online,success
+TX1129_2,AC112,2026-01-11 02:53:15,10145.18,Shop,Richardtown,transfer,online,success
+TX1130,AC108,2026-01-06 12:11:00,5529.42,Shop,Justinchester,transfer,atm,success
+TX1131,AC117,2026-01-03 23:50:00,7072.68,CoffeeShop,Stevenmouth,withdrawal,online,success
+TX1132,AC113,2026-01-06 14:46:00,13640.91,Grab,New Thomas,payment,online,success
+TX1133,AC117,2026-01-06 22:31:00,1742.69,CarDealer,Lake Christopher,transfer,pos,success
+TX1134,AC104,2026-01-09 06:11:00,14189.67,SuperMart,Clarencebury,withdrawal,online,success
+TX1135,AC114,2026-01-04 12:23:00,491.71,SuperMart,Jeffreyborough,payment,pos,success
+TX1136,AC101,2026-01-07 12:40:00,13525.54,SuperMart,North Brandon,transfer,online,success
+TX1137,AC119,2026-01-10 17:03:00,6821.31,Grab,Carrland,payment,pos,success
+TX1138,AC117,2026-01-07 18:10:00,3078.88,CarDealer,Perryshire,withdrawal,online,success
+TX1139,AC100,2026-01-10 03:27:00,2214.17,CoffeeShop,Lake Heather,payment,online,success
+TX1140,AC100,2026-01-02 14:01:00,-9916.2,CoffeeShop,Rossberg,payment,atm,success
+TX1141,AC103,2026-01-01 22:18:00,1902.25,Grab,Port Michelleville,transfer,pos,success
+TX1142,AC119,2026-01-02 13:46:00,6780.63,Grab,Robinsonhaven,withdrawal,atm,success
+TX1143,AC112,2026-01-01 16:30:00,913.32,SuperMart,Williamsbury,withdrawal,online,success
+TX1144,AC104,2026-01-02 04:04:00,13489.1,Grab,South Dennismouth,payment,pos,success
+TX1145,AC116,2026-01-09 10:27:00,4878.46,CoffeeShop,Stephaniemouth,transfer,atm,success
+TX1146,AC117,2026-01-09 07:37:00,1717.1,CarDealer,Rivasside,transfer,pos,success
+TX1147,AC103,2026-01-10 17:56:00,6803.03,CoffeeShop,Merrittfort,transfer,pos,success
+TX1148,AC102,2026-01-03 01:40:00,10302.63,Grab,Greenbury,payment,pos,success
+TX1149,AC117,2026-01-10 13:40:00,1952.6,Shop,Katiehaven,transfer,atm,success
+TX1150,AC101,2026-01-08 21:40:00,14117.01,CoffeeShop,Simsview,withdrawal,pos,success
+TX1151,AC103,2026-01-03 18:05:00,2321.8,CoffeeShop,Jonesport,withdrawal,pos,success
+TX1152,AC119,2026-01-03 21:45:00,12108.51,Shop,West Matthew,withdrawal,atm,success
+TX1153,AC105,2026-01-08 19:37:00,12442.08,CoffeeShop,East Edwardfurt,withdrawal,pos,success
+TX1154,AC112,2026-01-03 09:32:00,13048.07,Grab,Lake Jason,payment,atm,success
+TX1155,AC114,2026-01-09 19:44:00,7957.71,CoffeeShop,Russellside,payment,pos,success
+TX1156,AC104,2026-01-07 18:59:00,8943.76,CarDealer,Perryborough,withdrawal,online,success
+TX1157,AC113,2026-01-08 20:45:00,6360.8,CoffeeShop,Priceshire,payment,atm,success
+TX1158,AC116,2026-01-04 13:20:00,10173.59,CoffeeShop,Port Nicoleshire,payment,online,success
+TX1159,AC104,2026-01-01 10:05:00,3067.14,CoffeeShop,Woodsstad,transfer,pos,success
+TX1160,AC107,2026-01-06 05:35:00,2636.25,Shop,Karenchester,withdrawal,atm,success
+TX1161,AC114,2026-01-11 03:19:00,11130.88,Grab,South Jeffrey,transfer,atm,success
+TX1162,AC100,2026-01-08 14:48:00,6265.99,CoffeeShop,Tuckerfurt,payment,atm,success
+TX1163,AC107,2026-01-05 10:48:00,1322.86,SuperMart,Elizabethfurt,withdrawal,pos,success
+TX1164,AC105,2026-01-04 20:43:00,11187.33,Grab,Port Tanner,withdrawal,atm,success
+TX1165,AC104,2026-01-11 15:22:00,11643.65,CarDealer,New Amanda,payment,online,success
+TX1166,AC105,2026-01-03 01:44:00,11403.47,SuperMart,Vargastown,transfer,atm,success
+TX1167,AC119,2026-01-11 08:51:00,8467.81,CoffeeShop,Lake Roymouth,withdrawal,pos,success
+TX1168,AC118,2026-01-06 08:45:00,9471.15,Grab,North Jorge,transfer,atm,success
+TX1169,AC102,2026-01-01 18:16:00,854.29,Grab,Jasonmouth,withdrawal,atm,success
+TX1170,AC101,2026-01-07 15:21:00,14313.52,SuperMart,Kathleenfurt,withdrawal,atm,success
+TX1171,AC103,2026-01-07 00:54:00,2263.77,CoffeeShop,Karenchester,withdrawal,online,success
+TX1172,AC116,2026-01-04 03:39:00,10614.62,Shop,Maryfort,withdrawal,online,success
+TX1173,AC119,2026-01-05 17:47:00,6132.13,Grab,Lake Amberstad,withdrawal,atm,success
+TX1174,AC119,2026-01-07 16:21:00,10176.01,CarDealer,Lake Casey,transfer,online,success
+TX1175,AC112,2026-01-05 07:31:00,4654.17,CarDealer,Port Anthonybury,withdrawal,atm,success
+TX1176,AC104,2026-01-05 14:51:00,9652.76,Shop,Port Andrew,payment,atm,success
+TX1177,AC106,2026-01-01 12:58:00,5439.6,CoffeeShop,East David,transfer,online,success
+TX1178,AC116,2026-01-02 05:04:00,4437.59,Shop,New Staciemouth,withdrawal,atm,success
+TX1179,AC104,2026-01-10 01:15:00,9270.85,CarDealer,Katieburgh,payment,atm,success
+TX1180,AC111,2026-01-03 05:12:00,-10818.02,CarDealer,Port Loriport,transfer,atm,success
+TX1181,AC115,2026-01-06 10:35:00,3510.81,CarDealer,New Anthonyport,transfer,atm,success
+TX1182,AC116,2026-01-06 14:04:00,11541.81,Shop,Sandersborough,transfer,online,success
+TX1183,AC115,2026-01-02 21:47:00,13095.16,CoffeeShop,New Hannahbury,withdrawal,online,success
+TX1184,AC108,2026-01-02 18:02:00,4276.66,SuperMart,Lake Kendraville,withdrawal,online,success
+TX1185,AC111,2026-01-11 16:37:00,3331.35,Grab,West Amandastad,transfer,online,success
+TX1186,AC100,2026-01-05 17:26:00,14917.89,CoffeeShop,New Deborahtown,payment,atm,success
+TX1187,AC115,2026-01-02 21:34:00,575.51,CarDealer,Shortville,withdrawal,pos,success
+TX1187_1,AC115,2026-01-02 21:35:10,575.51,CarDealer,Shortville,withdrawal,pos,success
+TX1187_2,AC115,2026-01-02 21:35:02,575.51,CarDealer,Shortville,withdrawal,pos,success
+TX1188,AC119,2026-01-04 05:53:00,3235.61,Shop,Yumouth,transfer,online,success
+TX1189,AC119,2026-01-02 17:16:00,717.19,SuperMart,South Gregory,payment,online,success
+TX1190,AC107,2026-01-07 10:22:00,247.51,CarDealer,Christinaside,transfer,pos,failed
+TX1191,AC102,2026-01-07 19:49:00,6249.1,Shop,Marshallshire,transfer,online,success
+TX1192,AC112,2026-01-10 06:44:00,14824.98,SuperMart,Marcusbury,payment,atm,success
+TX1193,AC111,2026-01-09 20:04:00,244.62,CarDealer,West Nicolebury,withdrawal,atm,success
+TX1194,AC111,2026-01-09 16:45:00,11350.43,Shop,Hudsonfurt,transfer,atm,success
+TX1195,AC105,2026-01-06 14:52:00,14712.31,CarDealer,Anthonymouth,payment,atm,success
+TX1196,AC101,2026-01-04 16:07:00,3024.66,CoffeeShop,South Jason,transfer,atm,success
+TX1197,AC106,2026-01-06 17:16:00,3800.45,CoffeeShop,Matthewview,transfer,online,success
+TX1198,AC112,2026-01-02 17:59:00,11990.34,SuperMart,New Stacyland,transfer,pos,success
+TX1199,AC108,2026-01-06 23:51:00,5510.84,Grab,Lake Richard,withdrawal,pos,success
+TX1200,AC103,2026-01-10 16:33:00,2707.67,Grab,Lake Thomas,transfer,atm,success
+TX1201,AC111,2026-01-09 11:58:00,6392.31,SuperMart,Westtown,payment,atm,success
+TX1202,AC101,2026-01-06 06:46:00,4119.06,Grab,West Jeffreybury,withdrawal,atm,success
+TX1203,AC104,2026-01-09 20:46:00,10191.48,Shop,Elizabethstad,withdrawal,pos,success
+TX1204,AC118,2026-01-10 04:35:00,9677.8,Grab,Transtad,withdrawal,online,success
+TX1205,AC104,2026-01-05 13:35:00,6659.65,Shop,Barajasside,transfer,pos,success
+TX1206,AC116,2026-01-02 14:58:00,389.67,SuperMart,Michaelmouth,withdrawal,online,success
+TX1207,AC115,2026-01-06 09:51:00,3219.34,CarDealer,Kristopherbury,payment,online,success
+TX1208,AC110,2026-01-11 13:23:00,10700.84,CoffeeShop,Lake Jamesville,withdrawal,online,success
+TX1209,AC105,2026-01-04 17:54:00,12770.58,CoffeeShop,East Javier,withdrawal,online,success
+TX1210,AC111,2026-01-02 21:55:00,3551.81,Shop,Hillshire,withdrawal,pos,success
+TX1211,AC109,2026-01-02 19:26:00,9179.61,SuperMart,Tinaborough,withdrawal,atm,success
+TX1212,AC110,2026-01-05 23:48:00,12350.27,Grab,Jeremyburgh,transfer,pos,success
+TX1213,AC118,2026-01-11 07:44:00,12435.98,CarDealer,Alexisside,payment,pos,success
+TX1214,AC105,2026-01-10 19:01:00,1863.29,CarDealer,West Brandon,transfer,atm,success
+TX1215,AC108,2026-01-07 05:41:00,13423.99,CarDealer,New Kellyberg,withdrawal,atm,success
+TX1216,AC105,2026-01-08 07:46:00,8002.64,Shop,Garciatown,withdrawal,online,success
+TX1217,AC118,2026-01-11 14:18:00,9077.48,Grab,Taylormouth,payment,online,success
+TX1218,AC118,2026-01-07 21:29:00,3970.57,SuperMart,Jackton,withdrawal,atm,success
+TX1219,AC115,2026-01-07 12:58:00,4345.79,CarDealer,Shelleyfort,withdrawal,pos,success
+TX1220,AC114,2026-01-02 00:21:00,2372.05,CarDealer,Port Cameronfort,transfer,atm,success
+TX1221,AC112,2026-01-04 23:11:00,11013.26,CarDealer,New Crystalton,transfer,atm,success
+TX1222,AC104,2026-01-06 15:22:00,1838.71,Grab,East Lisa,payment,pos,success
+TX1223,AC105,2026-01-06 02:10:00,3724.81,CoffeeShop,Christopherbury,withdrawal,atm,success
+TX1224,AC109,2026-01-07 00:03:00,14939.55,SuperMart,New Kathybury,payment,online,success
+TX1225,AC101,2026-01-04 01:44:00,3227.95,CoffeeShop,Hayesmouth,transfer,atm,success
+TX1226,AC103,2026-01-06 16:30:00,-4286.94,SuperMart,Michellechester,payment,pos,success
+TX1227,AC117,2026-01-05 11:55:00,679.59,CarDealer,Ashleyton,transfer,atm,success
+TX1228,AC119,2026-01-06 10:58:00,11466.3,Shop,Port Jaredborough,payment,online,success
+TX1229,AC111,2026-01-10 09:03:00,14801.83,CarDealer,Donnaburgh,payment,atm,success
+TX1230,AC115,2026-01-01 20:22:00,584.67,Shop,East Andrea,transfer,online,success
+TX1231,AC112,2026-01-05 01:33:00,13970.6,Shop,North Ricky,withdrawal,pos,success
+TX1232,AC109,2026-01-07 03:11:00,7985.57,SuperMart,Carterbury,payment,pos,success
+TX1233,AC100,2026-01-06 01:44:00,8755.95,Shop,Jasminemouth,transfer,pos,success
+TX1234,AC101,2026-01-10 03:56:00,8677.54,Shop,Lake Jesusview,transfer,online,success
+TX1235,AC107,2026-01-10 03:31:00,12617.67,Grab,South Danny,withdrawal,atm,success
+TX1235_1,AC107,2026-01-10 03:32:40,12617.67,Grab,South Danny,withdrawal,atm,success
+TX1235_2,AC107,2026-01-10 03:32:53,12617.67,Grab,South Danny,withdrawal,atm,success
+TX1236,AC116,2026-01-03 01:21:00,6194.99,Shop,Lake Edward,transfer,atm,success
+TX1237,AC115,2026-01-07 05:38:00,3110.92,Shop,Margaretland,transfer,pos,success
+TX1238,AC108,2026-01-07 09:34:00,5135.56,Shop,East Laurashire,transfer,online,success
+TX1239,AC109,2026-01-04 17:30:00,3373.78,CoffeeShop,Scottmouth,withdrawal,online,success
+TX1240,AC108,2026-01-06 19:01:00,5232.7,CoffeeShop,Hollyview,payment,atm,success
+TX1241,AC104,2026-01-05 19:44:00,12275.84,CoffeeShop,Kimton,payment,pos,success
+TX1242,AC106,2026-01-06 08:47:00,9839.92,CarDealer,Navarroview,withdrawal,pos,success
+TX1243,AC107,2026-01-02 21:29:00,1639.29,CarDealer,North Jeremyshire,payment,atm,success
+TX1244,AC115,2026-01-03 23:34:00,788.31,Grab,Port Emilyview,withdrawal,online,failed
+TX1245,AC115,2026-01-03 03:07:00,6104.2,SuperMart,Port Katelynfort,withdrawal,online,success
+TX1246,AC102,2026-01-04 13:56:00,9688.82,Shop,Moonburgh,payment,atm,success
+TX1247,AC105,2026-01-01 18:11:00,13698.53,Grab,Waltersfort,transfer,pos,success
+TX1248,AC100,2026-01-11 06:11:00,13890.67,CoffeeShop,South Michaelmouth,withdrawal,atm,success
+TX1249,AC116,2026-01-04 13:42:00,6815.78,SuperMart,Elizabethburgh,payment,atm,success
+TX1250,AC108,2026-01-02 14:45:00,4960.93,CarDealer,Robertfort,payment,atm,success
+TX1251,AC112,2026-01-09 00:09:00,11359.48,SuperMart,Elainefurt,withdrawal,pos,success
+TX1252,AC107,2026-01-03 10:27:00,14725.3,Grab,South Christopherview,transfer,pos,success
+TX1253,AC100,2026-01-05 02:00:00,4529.89,CoffeeShop,Darrellfurt,withdrawal,pos,success
+TX1254,AC116,2026-01-02 16:16:00,6981.46,CoffeeShop,Lake Mollymouth,withdrawal,online,success
+TX1255,AC104,2026-01-05 12:21:00,9219.77,SuperMart,Brownhaven,payment,pos,success
+TX1256,AC117,2026-01-06 01:33:00,10529.41,CarDealer,Cindyfort,payment,atm,success
+TX1257,AC111,2026-01-02 06:21:00,7883.07,Grab,Wolfborough,withdrawal,online,success
+TX1258,AC105,2026-01-07 02:01:00,3033.15,CoffeeShop,Andreaport,withdrawal,pos,success
+TX1259,AC114,2026-01-07 23:14:00,7332.93,Grab,Gilmorefort,transfer,online,success
+TX1260,AC109,2026-01-01 23:45:00,8382.4,Grab,North Teresabury,transfer,pos,success
+TX1261,AC102,2026-01-07 21:55:00,1096.37,Shop,West Andrea,payment,online,success
+TX1262,AC113,2026-01-04 14:23:00,6133.6,CoffeeShop,Davisville,transfer,pos,success
+TX1263,AC117,2026-01-05 14:34:00,1204.67,CarDealer,Valentineberg,withdrawal,pos,success
+TX1264,AC107,2026-01-05 19:19:00,7933.11,Grab,Cantuport,payment,pos,success
+TX1265,AC107,2026-01-06 03:48:00,7979.47,SuperMart,Robertfort,transfer,online,success
+TX1266,AC113,2026-01-09 13:58:00,-11482.58,Shop,Sanchezside,payment,online,success
+TX1267,AC101,2026-01-01 17:10:00,6697.17,CarDealer,South James,withdrawal,online,success
+TX1268,AC104,2026-01-03 19:19:00,11316.03,Shop,Port Chad,transfer,online,success
+TX1269,AC110,2026-01-04 23:04:00,8662.54,CarDealer,Morganhaven,transfer,online,success
+TX1270,AC118,2026-01-06 00:55:00,4508.21,CarDealer,Loriport,withdrawal,atm,success
+TX1271,AC116,2026-01-05 06:02:00,14123.85,CoffeeShop,Maryshire,withdrawal,pos,success
+TX1272,AC107,2026-01-03 10:12:00,11316.49,CoffeeShop,Grimesmouth,withdrawal,online,success
+TX1273,AC116,2026-01-07 17:34:00,6190.75,CarDealer,Reedside,transfer,online,success
+TX1274,AC102,2026-01-02 05:35:00,13833.47,Shop,Gibsonmouth,withdrawal,online,success
+TX1275,AC106,2026-01-08 05:11:00,9044.23,Shop,Lake John,withdrawal,atm,success
+TX1276,AC100,2026-01-11 05:25:00,13605.59,CarDealer,Hallchester,payment,atm,success
+TX1277,AC106,2026-01-06 18:46:00,13716.71,SuperMart,West Juliefurt,payment,atm,success
+TX1278,AC108,2026-01-06 15:19:00,8005.22,CoffeeShop,Mcneilberg,withdrawal,pos,success
+TX1279,AC106,2026-01-09 13:16:00,7042.89,CoffeeShop,Hannaberg,transfer,pos,success
+TX1280,AC118,2026-01-09 18:24:00,2189.69,Shop,Mollymouth,withdrawal,pos,success
+TX1281,AC115,2026-01-03 22:48:00,5698.22,Shop,New Reneetown,withdrawal,atm,success
+TX1282,AC115,2026-01-06 21:25:00,14497.66,SuperMart,South Monica,payment,atm,success
+TX1283,AC117,2026-01-09 12:41:00,8198.65,Grab,North Terrance,withdrawal,online,success
+TX1284,AC113,2026-01-10 15:22:00,10023.56,CarDealer,Matthewfurt,withdrawal,online,success
+TX1285,AC119,2026-01-03 19:43:00,7586.49,Shop,Port Markside,transfer,atm,success
+TX1285_1,AC119,2026-01-03 19:45:10,7586.49,Shop,Port Markside,transfer,atm,success
+TX1285_2,AC119,2026-01-03 19:44:52,7586.49,Shop,Port Markside,transfer,atm,success
+TX1286,AC117,2026-01-01 11:14:00,251.88,CoffeeShop,Finleyfort,payment,atm,success
+TX1287,AC103,2026-01-10 12:08:00,14095.74,Shop,New Caseyport,payment,online,success
+TX1288,AC102,2026-01-10 14:36:00,5317.26,CoffeeShop,Lake Christopher,transfer,pos,success
+TX1289,AC102,2026-01-03 21:40:00,4500.32,Grab,Port Cynthiaville,payment,pos,success
+TX1290,AC102,2026-01-01 23:19:00,9551.58,SuperMart,Jacksonport,transfer,atm,success
+TX1291,AC101,2026-01-11 02:16:00,14607.62,CarDealer,North Markton,payment,atm,success
+TX1292,AC108,2026-01-01 20:42:00,13862.46,Shop,Michaelchester,withdrawal,atm,success
+TX1293,AC104,2026-01-04 21:52:00,235.86,SuperMart,East Amanda,payment,pos,success
+TX1294,AC117,2026-01-10 19:54:00,12741.79,CoffeeShop,East Gregory,transfer,atm,success
+TX1295,AC111,2026-01-09 13:44:00,1177.34,Grab,Harveybury,payment,pos,success
+TX1296,AC112,2026-01-08 05:15:00,11535.32,CoffeeShop,Durhamberg,payment,atm,success
+TX1297,AC112,2026-01-06 21:58:00,3422.85,SuperMart,South Dana,payment,atm,success
+TX1298,AC102,2026-01-10 02:51:00,9279.62,Grab,Scotttown,transfer,online,success
+TX1299,AC103,2026-01-03 02:07:00,11095.09,Grab,Santanaside,payment,pos,success
+TX1300,AC114,2026-01-02 11:54:00,1988.47,Shop,North Scott,withdrawal,atm,success
+TX1301,AC110,2026-01-05 08:38:00,8313.74,SuperMart,Vanessaport,payment,pos,success
+TX1302,AC107,2026-01-09 13:55:00,13517.14,Shop,Vaughnmouth,withdrawal,online,success
+TX1303,AC102,2026-01-04 09:25:00,4517.67,CarDealer,Jamesfurt,transfer,pos,success
+TX1304,AC115,2026-01-02 05:00:00,5417.51,Shop,Rodriguezfurt,withdrawal,online,success
+TX1305,AC119,2026-01-01 09:50:00,14232.4,SuperMart,Baileyport,transfer,pos,success
+TX1306,AC109,2026-01-11 02:42:00,9765.9,CoffeeShop,Port Dominiqueview,withdrawal,atm,success
+TX1307,AC115,2026-01-05 20:44:00,14530.91,Shop,New Michelleton,payment,pos,success
+TX1308,AC106,2026-01-05 19:17:00,5475.87,Shop,Wallport,withdrawal,online,success
+TX1309,AC114,2026-01-09 14:34:00,6924.87,CoffeeShop,New Laurie,withdrawal,online,success
+TX1310,AC109,2026-01-05 23:43:00,10094.99,CarDealer,Lake James,transfer,atm,success
+TX1311,AC115,2026-01-05 14:56:00,1110.4,Shop,Ericaberg,transfer,atm,success
+TX1312,AC111,2026-01-09 04:52:00,-6275.09,Shop,Lake Debbieport,withdrawal,atm,success
+TX1313,AC119,2026-01-04 03:47:00,9864.37,Grab,Johnsonstad,withdrawal,atm,success
+TX1314,AC103,2026-01-09 21:31:00,4974.62,Grab,North Renee,payment,pos,success
+TX1315,AC114,2026-01-07 16:22:00,8708.19,CoffeeShop,Julieburgh,transfer,pos,success
+TX1316,AC115,2026-01-07 00:39:00,2262.02,Grab,East Kristin,transfer,pos,success
+TX1317,AC109,2026-01-10 19:00:00,14110.2,CoffeeShop,Alyssaview,transfer,online,success
+TX1318,AC110,2026-01-02 10:39:00,6573.05,Grab,West Robin,transfer,online,success
+TX1319,AC105,2026-01-10 23:52:00,5146.83,CarDealer,Coffeyport,withdrawal,online,success
+TX1320,AC112,2026-01-06 04:25:00,14376.98,CarDealer,Lindamouth,payment,atm,success
+TX1321,AC118,2026-01-09 17:21:00,9211.99,SuperMart,East Karenbury,transfer,online,success
+TX1322,AC118,2026-01-09 21:26:00,10556.69,Grab,Coffeyside,withdrawal,online,success
+TX1323,AC116,2026-01-02 15:07:00,3936.04,CoffeeShop,Christopherfurt,withdrawal,pos,success
+TX1324,AC105,2026-01-05 07:00:00,5280.42,CoffeeShop,West Amandamouth,withdrawal,atm,success
+TX1325,AC111,2026-01-02 16:11:00,3579.35,CarDealer,Emilyview,withdrawal,pos,success
+TX1326,AC117,2026-01-05 16:46:00,6346.16,CarDealer,Carsonstad,withdrawal,online,success
+TX1327,AC111,2026-01-04 21:54:00,12629.94,Grab,Lake Jesustown,transfer,online,success
+TX1328,AC115,2026-01-07 17:20:00,7582.06,SuperMart,Rosebury,withdrawal,pos,success
+TX1329,AC101,2026-01-01 16:25:00,11938.42,CoffeeShop,Lake Madisonport,payment,atm,success
+TX1330,AC117,2026-01-07 18:27:00,11138.03,Shop,Wilsonton,payment,atm,success
+TX1331,AC101,2026-01-10 16:48:00,14863.41,SuperMart,West Wendyville,withdrawal,online,success
+TX1332,AC101,2026-01-10 18:39:00,9805.42,SuperMart,East Paigeberg,transfer,pos,success
+TX1333,AC107,2026-01-11 04:16:00,14909.37,CarDealer,Chavezside,withdrawal,atm,success
+TX1334,AC104,2026-01-08 06:38:00,9491.93,CarDealer,Matthewsberg,payment,online,success
+TX1335,AC109,2026-01-08 02:58:00,8081.99,CoffeeShop,Penafort,withdrawal,pos,success
+TX1336,AC113,2026-01-11 13:48:00,10189.81,Grab,Crosbyview,transfer,atm,success
+TX1337,AC107,2026-01-04 04:10:00,2194.51,SuperMart,Lake Mitchellmouth,transfer,online,success
+TX1338,AC102,2026-01-06 01:06:00,5628.21,SuperMart,Sampsonstad,withdrawal,atm,success
+TX1339,AC118,2026-01-05 12:46:00,6820.98,Grab,Lake Michaelstad,withdrawal,online,success
+TX1340,AC117,2026-01-08 21:21:00,10459.64,SuperMart,South Joshuaville,payment,pos,success
+TX1341,AC118,2026-01-05 00:09:00,12425.33,CarDealer,Davisborough,withdrawal,pos,success
+TX1342,AC114,2026-01-10 00:08:00,727.09,Grab,North Kristinbury,payment,online,success
+TX1342_1,AC114,2026-01-10 00:09:54,727.09,Grab,North Kristinbury,payment,online,success
+TX1342_2,AC114,2026-01-10 00:09:25,727.09,Grab,North Kristinbury,payment,online,success
+TX1343,AC109,2026-01-09 04:01:00,13641.2,CarDealer,Port Anne,transfer,online,success
+TX1344,AC101,2026-01-05 13:32:00,9967.97,SuperMart,Port Kathyborough,withdrawal,pos,success
+TX1345,AC100,2026-01-06 05:12:00,9832.62,CarDealer,Port Molly,transfer,online,success
+TX1346,AC110,2026-01-09 01:40:00,-6676.56,Grab,Kimtown,transfer,atm,success
+TX1347,AC103,2026-01-05 16:36:00,1340.88,CoffeeShop,Micheleberg,transfer,pos,success
+TX1348,AC104,2026-01-09 21:39:00,13117.58,Grab,New John,withdrawal,atm,failed
+TX1349,AC104,2026-01-06 08:10:00,5268.46,SuperMart,North Donna,withdrawal,atm,success
+TX1350,AC118,2026-01-11 12:49:00,1507.88,SuperMart,East Alexisbury,transfer,pos,success
+TX1351,AC119,2026-01-04 11:37:00,9669.66,Shop,Alfredview,withdrawal,atm,success
+TX1352,AC109,2026-01-01 15:19:00,12718.53,CarDealer,East Judyhaven,withdrawal,atm,success
+TX1353,AC107,2026-01-04 16:42:00,9692.9,SuperMart,Lake Brycemouth,transfer,online,success
+TX1354,AC111,2026-01-02 03:23:00,7924.77,CoffeeShop,Williamville,payment,pos,success
+TX1355,AC115,2026-01-05 11:46:00,8195.8,Grab,Gordonton,payment,atm,success
+TX1356,AC112,2026-01-01 18:52:00,13838.77,Shop,Stephentown,transfer,atm,success
+TX1357,AC117,2026-01-06 03:39:00,10527.46,Shop,South Melaniechester,withdrawal,online,success
+TX1358,AC104,2026-01-07 03:37:00,13813.95,Shop,South Jennifermouth,transfer,pos,success
+TX1359,AC113,2026-01-08 17:26:00,10216.15,CarDealer,North Marcberg,payment,online,success
+TX1360,AC105,2026-01-06 11:48:00,9184.84,Grab,East Joshuashire,payment,atm,success
+TX1360_1,AC105,2026-01-06 11:50:03,9184.84,Grab,East Joshuashire,payment,atm,success
+TX1360_2,AC105,2026-01-06 11:49:44,9184.84,Grab,East Joshuashire,payment,atm,success
+TX1361,AC108,2026-01-07 06:48:00,7758.83,CarDealer,Oscarhaven,transfer,online,success
+TX1362,AC100,2026-01-09 16:08:00,13296.33,CoffeeShop,Shawnchester,transfer,pos,success
+TX1363,AC116,2026-01-07 21:27:00,9413.36,CoffeeShop,Port Jacquelineside,payment,pos,success
+TX1364,AC118,2026-01-03 02:57:00,3827.49,Grab,South Shannon,payment,atm,success
+TX1365,AC111,2026-01-11 03:38:00,-185.31,SuperMart,South Matthew,payment,online,success
+TX1366,AC113,2026-01-07 14:58:00,12046.93,CarDealer,Rossville,transfer,online,success
+TX1367,AC103,2026-01-04 10:04:00,12390.13,Shop,Ronaldview,withdrawal,online,success
+TX1368,AC114,2026-01-01 20:32:00,14311.24,CoffeeShop,Stephaniefort,transfer,pos,success
+TX1369,AC109,2026-01-05 12:44:00,3010.87,Shop,North Marieland,payment,pos,success
+TX1370,AC117,2026-01-10 02:58:00,11638.51,CarDealer,Davisstad,payment,online,success
+TX1371,AC100,2026-01-07 11:52:00,5197.01,CoffeeShop,New Brian,payment,atm,success
+TX1372,AC107,2026-01-04 19:58:00,1560.13,SuperMart,Elizabethchester,transfer,online,success
+TX1373,AC116,2026-01-04 12:24:00,1396.31,SuperMart,Morganchester,withdrawal,pos,success
+TX1374,AC112,2026-01-07 22:35:00,1434.56,Grab,West Carolinestad,withdrawal,atm,success
+TX1375,AC110,2026-01-02 19:41:00,3552.34,SuperMart,New Williamberg,withdrawal,atm,success
+TX1376,AC118,2026-01-03 23:47:00,1121.24,Grab,Walkerville,payment,online,success
+TX1377,AC106,2026-01-05 23:00:00,1811.93,SuperMart,Meganstad,transfer,pos,success
+TX1378,AC119,2026-01-03 03:02:00,12114.15,Grab,Port Joshuabury,payment,pos,success
+TX1379,AC109,2026-01-05 09:08:00,-5944.27,CoffeeShop,Bruceside,payment,online,success
+TX1380,AC114,2026-01-07 15:48:00,11221.43,Grab,New Sarahview,payment,online,success
+TX1381,AC111,2026-01-03 20:41:00,1961.6,Grab,East Joshuaport,withdrawal,atm,success
+TX1382,AC114,2026-01-01 13:57:00,14957.42,CarDealer,Michaelburgh,payment,pos,success
+TX1383,AC112,2026-01-01 21:49:00,2520.67,SuperMart,New Diane,payment,pos,success
+TX1384,AC114,2026-01-03 18:37:00,13624.65,CarDealer,East Joycetown,payment,atm,success
+TX1385,AC115,2026-01-04 16:35:00,7483.88,Grab,Lake Alyssafurt,payment,pos,success
+TX1386,AC117,2026-01-08 15:29:00,13269.9,Grab,Chavezburgh,transfer,atm,success
+TX1387,AC110,2026-01-06 20:20:00,5161.17,SuperMart,Larrymouth,transfer,online,success
+TX1388,AC101,2026-01-01 16:00:00,13436.58,SuperMart,North Ericton,withdrawal,pos,success
+TX1389,AC108,2026-01-03 03:35:00,1502.91,Shop,West Scottchester,withdrawal,online,success
+TX1390,AC111,2026-01-07 21:12:00,12697.73,CarDealer,Lawsonchester,payment,online,success
+TX1391,AC111,2026-01-09 06:29:00,5382.39,Shop,Jasonhaven,withdrawal,online,success
+TX1392,AC109,2026-01-10 13:17:00,13224.51,CarDealer,West Russellport,transfer,online,success
+TX1393,AC110,2026-01-03 19:44:00,299.9,Shop,Roseport,payment,online,success
+TX1394,AC100,2026-01-10 11:06:00,12664.42,CarDealer,East Randallton,withdrawal,atm,success
+TX1395,AC102,2026-01-10 23:08:00,7894.9,CoffeeShop,East Kevinborough,withdrawal,atm,success
+TX1396,AC113,2026-01-04 18:24:00,4839.73,SuperMart,Port Jonathan,withdrawal,pos,success
+TX1397,AC111,2026-01-09 05:23:00,13344.11,CarDealer,Davidfort,withdrawal,atm,success
+TX1398,AC100,2026-01-09 16:25:00,10327.79,Shop,Thompsonfurt,transfer,atm,success
+TX1399,AC118,2026-01-10 12:51:00,14513.01,Grab,New Angelica,transfer,online,success
+TX1400,AC102,2026-01-05 06:42:00,14735.71,CoffeeShop,Charleston,transfer,online,success
+TX1401,AC100,2026-01-02 02:30:00,5257.87,Grab,Smithland,transfer,pos,success
+TX1402,AC111,2026-01-11 09:32:00,6210.87,Shop,Barbarashire,transfer,online,success
+TX1403,AC105,2026-01-07 21:50:00,9764.89,SuperMart,Mckinneychester,payment,online,success
+TX1404,AC112,2026-01-02 12:35:00,1113.93,CarDealer,Dariustown,withdrawal,online,success
+TX1405,AC115,2026-01-02 09:25:00,5069.92,Grab,Georgemouth,transfer,atm,success
+TX1406,AC106,2026-01-03 02:53:00,804.28,SuperMart,Christopherville,withdrawal,atm,success
+TX1407,AC103,2026-01-04 08:26:00,9909.31,Grab,South Brianna,transfer,atm,success
+TX1408,AC109,2026-01-01 22:53:00,5413.07,Shop,South Monicamouth,transfer,online,success
+TX1409,AC103,2026-01-08 14:16:00,4377.88,CoffeeShop,West Kimberly,transfer,pos,success
+TX1410,AC111,2026-01-02 08:53:00,9628.35,SuperMart,New Cynthiahaven,transfer,online,success
+TX1411,AC118,2026-01-06 14:59:00,3951.75,Grab,Port Michael,payment,atm,success
+TX1412,AC118,2026-01-05 05:52:00,12122.89,CarDealer,East Curtis,withdrawal,online,success
+TX1413,AC115,2026-01-06 02:18:00,14484.45,Shop,Jamesberg,payment,pos,success
+TX1414,AC116,2026-01-11 01:10:00,10714.87,Shop,East Stephaniefort,withdrawal,atm,success
+TX1415,AC106,2026-01-06 10:37:00,2594.01,CarDealer,Webstershire,payment,online,success
+TX1416,AC104,2026-01-06 06:53:00,3029.59,Shop,Maldonadoshire,transfer,pos,success
+TX1417,AC117,2026-01-02 02:17:00,1306.32,CoffeeShop,Michellemouth,transfer,atm,success
+TX1418,AC113,2026-01-10 06:46:00,10506.48,Grab,South Carlos,transfer,online,success
+TX1419,AC103,2026-01-09 23:05:00,14472.51,Shop,Welchview,payment,pos,success
+TX1420,AC115,2026-01-11 07:43:00,6163.94,Shop,West Williamport,withdrawal,pos,success
+TX1421,AC112,2026-01-02 23:16:00,9274.05,Grab,Hayeston,transfer,pos,success
+TX1422,AC100,2026-01-06 17:45:00,13812.6,CoffeeShop,Marieland,transfer,pos,success
+TX1423,AC107,2026-01-09 06:06:00,10273.1,CarDealer,New Brookefurt,transfer,atm,success
+TX1424,AC102,2026-01-04 09:34:00,10932.26,CarDealer,Carpenterton,transfer,online,success
+TX1425,AC101,2026-01-06 20:17:00,11392.64,Shop,Stoutshire,payment,online,success
+TX1426,AC118,2026-01-02 21:02:00,11707.97,Grab,West Cassidy,payment,online,success
+TX1427,AC111,2026-01-01 23:44:00,3743.1,CarDealer,North Shannon,transfer,pos,success
+TX1428,AC107,2026-01-08 13:30:00,13846.18,CoffeeShop,Toniland,transfer,atm,success
+TX1429,AC105,2026-01-06 17:35:00,8803.62,CoffeeShop,North John,withdrawal,atm,success
+TX1430,AC106,2026-01-01 21:33:00,2444.45,CarDealer,Ritterhaven,withdrawal,online,success
+TX1431,AC100,2026-01-05 23:49:00,7699.71,SuperMart,West Nathan,payment,atm,success
+TX1432,AC109,2026-01-03 21:06:00,3786.6,CoffeeShop,Paulmouth,transfer,pos,success
+TX1433,AC119,2026-01-03 19:35:00,7001.0,SuperMart,Port Crystalmouth,withdrawal,online,failed
+TX1434,AC119,2026-01-10 22:16:00,12590.84,Shop,West Codyfurt,transfer,pos,success
+TX1435,AC108,2026-01-05 03:49:00,14825.43,CoffeeShop,Johnathanberg,withdrawal,atm,success
+TX1436,AC101,2026-01-03 11:26:00,2249.79,Shop,Christopherberg,transfer,atm,success
+TX1437,AC108,2026-01-01 14:57:00,9831.35,SuperMart,Kylefurt,transfer,pos,success
+TX1438,AC107,2026-01-07 20:12:00,12240.4,Shop,New Jeanne,withdrawal,pos,success
+TX1439,AC117,2026-01-07 02:31:00,4503.62,CarDealer,West Angelicamouth,transfer,online,success
+TX1440,AC105,2026-01-09 14:01:00,12125.35,CoffeeShop,Lake Jacqueline,withdrawal,online,success
+TX1441,AC110,2026-01-11 05:57:00,4606.97,CoffeeShop,Lake Ellenhaven,transfer,atm,success
+TX1442,AC118,2026-01-06 16:29:00,806.1,Shop,Andrewport,payment,pos,success
+TX1443,AC113,2026-01-11 04:53:00,10210.79,Grab,East Matthew,payment,online,success
+TX1444,AC104,2026-01-07 19:29:00,13392.78,CoffeeShop,Leeberg,withdrawal,online,success
+TX1445,AC101,2026-01-08 12:18:00,14799.62,Grab,North Kenneth,transfer,pos,success
+TX1446,AC102,2026-01-07 21:21:00,11467.49,CarDealer,New Kellihaven,withdrawal,pos,success
+TX1447,AC106,2026-01-06 18:21:00,-5750.36,CoffeeShop,Lake Matthewberg,payment,pos,success
+TX1448,AC107,2026-01-01 12:53:00,10151.55,CarDealer,Mooreburgh,withdrawal,pos,success
+TX1449,AC101,2026-01-07 01:26:00,8830.47,CoffeeShop,Lake Samuel,transfer,pos,success
+TX1450,AC104,2026-01-05 04:15:00,6505.54,CoffeeShop,Diazbury,transfer,pos,success
+TX1451,AC107,2026-01-11 15:38:00,13773.16,CarDealer,Bishopmouth,withdrawal,online,success
+TX1452,AC101,2026-01-07 01:47:00,2535.6,SuperMart,New John,withdrawal,pos,success
+TX1453,AC100,2026-01-08 02:10:00,14920.21,Grab,Mckeeborough,withdrawal,online,success
+TX1454,AC106,2026-01-07 13:26:00,3791.82,Grab,Erikashire,transfer,pos,success
+TX1455,AC113,2026-01-04 09:43:00,9342.34,Grab,Murrayport,withdrawal,atm,success
+TX1456,AC106,2026-01-10 06:17:00,1594.85,CoffeeShop,Shawchester,withdrawal,online,success
+TX1457,AC106,2026-01-03 03:47:00,592.05,SuperMart,Port James,transfer,online,failed
+TX1458,AC115,2026-01-11 15:38:00,1657.35,CarDealer,Port John,payment,atm,success
+TX1459,AC109,2026-01-11 15:03:00,3839.13,CoffeeShop,Sawyerside,transfer,online,success
+TX1460,AC110,2026-01-01 18:46:00,12783.88,SuperMart,Lake Meghanville,withdrawal,online,success
+TX1461,AC105,2026-01-01 20:31:00,146.08,CoffeeShop,Christopherburgh,transfer,pos,success
+TX1462,AC105,2026-01-09 16:10:00,1395.18,Grab,Shannonhaven,transfer,pos,success
+TX1463,AC113,2026-01-05 17:19:00,10348.85,CarDealer,Port Samuel,payment,online,success
+TX1464,AC118,2026-01-10 22:33:00,2391.77,SuperMart,Port Shannon,withdrawal,atm,success
+TX1465,AC104,2026-01-10 04:45:00,-5379.63,SuperMart,Sarahchester,transfer,online,success
+TX1466,AC116,2026-01-02 01:17:00,3924.93,Shop,South Waynebury,withdrawal,atm,success
+TX1467,AC119,2026-01-11 06:25:00,5075.17,Grab,Vangstad,transfer,atm,success
+TX1468,AC117,2026-01-08 21:14:00,10144.76,Shop,North Lucas,payment,online,success
+TX1469,AC105,2026-01-10 23:47:00,7039.86,Grab,Port Jennifermouth,transfer,pos,success
+TX1470,AC112,2026-01-01 21:44:00,7604.43,SuperMart,East Benjamin,payment,online,success
+TX1471,AC110,2026-01-06 10:21:00,1321.21,Grab,Hortonberg,transfer,atm,success
+TX1472,AC102,2026-01-06 00:35:00,538.44,Shop,Westtown,withdrawal,atm,success
+TX1473,AC110,2026-01-03 16:29:00,9819.29,CoffeeShop,North Jonathanberg,payment,online,success
+TX1474,AC111,2026-01-10 01:33:00,9296.75,SuperMart,Rodriguezport,payment,online,success
+TX1475,AC109,2026-01-05 05:12:00,5327.73,Shop,West David,withdrawal,pos,success
+TX1476,AC113,2026-01-03 04:49:00,7386.84,Grab,South Danielle,transfer,atm,success
+TX1477,AC106,2026-01-11 00:42:00,5894.05,CoffeeShop,Brownfort,payment,pos,success
+TX1478,AC114,2026-01-08 23:32:00,8832.58,SuperMart,Lake Zacharybury,withdrawal,atm,success
+TX1479,AC117,2026-01-07 00:12:00,66.06,SuperMart,West Ruben,withdrawal,pos,success
+TX1480,AC104,2026-01-11 16:32:00,2658.86,Grab,Johnchester,transfer,atm,success
+TX1481,AC119,2026-01-07 01:39:00,13220.98,CarDealer,Lake Elizabeth,transfer,pos,success
+TX1482,AC119,2026-01-06 11:39:00,12072.15,Shop,Carloshaven,transfer,atm,success
+TX1483,AC106,2026-01-09 17:12:00,14032.75,CarDealer,South Morganton,withdrawal,atm,success
+TX1484,AC105,2026-01-08 23:36:00,1990.94,Shop,Zavalaview,withdrawal,atm,success
+TX1485,AC118,2026-01-09 23:44:00,5284.21,SuperMart,West Kristinastad,withdrawal,atm,success
+TX1486,AC116,2026-01-11 07:36:00,12709.67,Grab,Lake Diane,payment,pos,success
+TX1487,AC109,2026-01-03 14:35:00,4005.41,CoffeeShop,Port Bonniemouth,payment,online,success
+TX1488,AC114,2026-01-09 21:46:00,8118.04,Grab,North Michael,withdrawal,atm,success
+TX1489,AC116,2026-01-09 18:43:00,9707.14,CoffeeShop,Lisaburgh,withdrawal,atm,success
+TX1490,AC110,2026-01-06 01:45:00,14350.57,Shop,Pollardfort,payment,online,success
+TX1491,AC107,2026-01-11 05:15:00,11714.09,CoffeeShop,Port Dennis,withdrawal,atm,success
+TX1492,AC105,2026-01-09 13:56:00,14464.38,Grab,Johnsonborough,payment,online,success
+TX1493,AC104,2026-01-01 19:05:00,6428.19,CarDealer,Port Jameston,withdrawal,pos,failed
+TX1494,AC119,2026-01-03 02:16:00,600.07,Grab,Sarahhaven,withdrawal,atm,success
+TX1495,AC110,2026-01-10 07:41:00,8590.58,Shop,Haysside,payment,online,success
+TX1496,AC102,2026-01-03 03:31:00,6239.55,CoffeeShop,Kingborough,payment,online,success
+TX1497,AC116,2026-01-04 16:09:00,3277.46,SuperMart,Michaelton,withdrawal,atm,failed
+TX1498,AC119,2026-01-06 09:41:00,3605.98,CarDealer,Joshuastad,payment,atm,success
+TX1499,AC117,2026-01-10 09:25:00,14174.87,CoffeeShop,Prestonmouth,payment,atm,success
+TX1500,AC109,2026-01-10 11:13:00,7631.53,CarDealer,Morganburgh,transfer,atm,success
+TX1501,AC102,2026-01-10 03:10:00,-8070.08,CarDealer,Holtstad,withdrawal,atm,success
+TX1502,AC113,2026-01-06 03:50:00,12535.14,Grab,Lauriechester,withdrawal,atm,success
+TX1503,AC105,2026-01-05 02:34:00,569.26,CoffeeShop,South Carrieburgh,withdrawal,online,success
+TX1504,AC112,2026-01-04 06:37:00,6115.08,SuperMart,Manuelland,transfer,online,success
+TX1505,AC118,2026-01-01 09:36:00,9621.7,Grab,Donnaport,withdrawal,online,success
+TX1506,AC102,2026-01-04 15:08:00,11803.59,CoffeeShop,Morrisonchester,transfer,pos,success
+TX1507,AC112,2026-01-06 17:25:00,2345.7,Shop,Lake Scott,transfer,atm,success
+TX1508,AC111,2026-01-11 17:37:00,14480.52,Grab,Williamsstad,withdrawal,atm,success
+TX1509,AC102,2026-01-07 20:23:00,8950.23,CoffeeShop,Hillton,payment,atm,success
+TX1510,AC116,2026-01-03 17:49:00,6190.4,CarDealer,Lake Danastad,payment,online,success
+TX1511,AC118,2026-01-03 13:03:00,1720.22,Grab,North Douglas,withdrawal,pos,success
+TX1512,AC118,2026-01-08 23:24:00,1011.37,SuperMart,Johnsonland,transfer,pos,success
+TX1513,AC106,2026-01-02 11:19:00,4277.77,CoffeeShop,Port Deanna,transfer,pos,success
+TX1514,AC111,2026-01-09 05:21:00,8762.96,CoffeeShop,Patrickshire,transfer,online,failed
+TX1515,AC108,2026-01-03 20:29:00,10683.27,CoffeeShop,New Ericmouth,payment,atm,success
+TX1516,AC115,2026-01-06 14:23:00,6680.92,Shop,Nathanland,payment,online,success
+TX1517,AC117,2026-01-04 12:37:00,12880.85,CarDealer,New Michael,transfer,atm,success
+TX1518,AC100,2026-01-02 04:35:00,13381.69,Shop,Debrabury,withdrawal,pos,success
+TX1519,AC117,2026-01-01 18:00:00,8274.36,SuperMart,North Jillfort,withdrawal,online,success
+TX1520,AC104,2026-01-10 02:50:00,8844.42,SuperMart,Mcintyreville,withdrawal,atm,success
+TX1521,AC119,2026-01-01 10:53:00,9940.51,CarDealer,Kimberlymouth,withdrawal,online,success
+TX1522,AC115,2026-01-07 18:30:00,9891.54,CoffeeShop,New Justin,payment,online,success
+TX1523,AC106,2026-01-04 08:11:00,-5542.16,Shop,Gonzalezberg,transfer,pos,success
+TX1524,AC103,2026-01-01 20:40:00,599.53,Shop,South Geraldmouth,withdrawal,pos,success
+TX1525,AC112,2026-01-07 12:38:00,8552.83,CoffeeShop,Port Evelynmouth,withdrawal,atm,success
+TX1526,AC116,2026-01-04 04:41:00,5645.56,SuperMart,Jennaside,transfer,pos,success
+TX1527,AC114,2026-01-08 04:59:00,99.96,CarDealer,Patriciaburgh,payment,online,success
+TX1528,AC103,2026-01-03 01:01:00,2804.4,CarDealer,Port Michael,transfer,pos,success
+TX1529,AC113,2026-01-06 18:44:00,7185.84,Grab,North Tracie,payment,online,success
+TX1530,AC118,2026-01-02 20:47:00,-9443.48,CarDealer,East Kristy,payment,online,success
+TX1531,AC100,2026-01-05 22:42:00,8990.76,CoffeeShop,West Angelastad,payment,online,success
+TX1532,AC113,2026-01-11 04:49:00,7225.54,Shop,Laraside,payment,atm,success
+TX1533,AC110,2026-01-08 20:07:00,7662.56,SuperMart,New Nicole,withdrawal,atm,success
+TX1534,AC116,2026-01-02 20:06:00,1629.44,SuperMart,West Raymondfort,payment,atm,success
+TX1535,AC117,2026-01-08 07:52:00,8997.61,Shop,Hammondshire,payment,online,success
+TX1536,AC113,2026-01-08 04:47:00,-8089.75,Shop,East Teresaland,transfer,pos,success
+TX1537,AC112,2026-01-06 05:08:00,3443.06,CoffeeShop,Owenshaven,withdrawal,atm,success
+TX1538,AC115,2026-01-07 21:19:00,1466.66,CarDealer,Davidside,payment,pos,success
+TX1539,AC100,2026-01-04 06:23:00,2836.13,Shop,Port Tammy,withdrawal,online,success
+TX1540,AC111,2026-01-03 16:05:00,10316.81,Grab,Shawton,payment,pos,success
+TX1541,AC119,2026-01-11 01:27:00,8042.04,CoffeeShop,New Ericburgh,withdrawal,pos,success
+TX1542,AC117,2026-01-10 06:01:00,8363.88,Shop,West Sarah,transfer,pos,success
+TX1543,AC103,2026-01-10 03:24:00,10582.71,CarDealer,West Stacey,transfer,atm,success
+TX1544,AC117,2026-01-07 02:48:00,6009.01,Shop,Meghanview,withdrawal,atm,success
+TX1545,AC104,2026-01-08 13:38:00,80.35,SuperMart,Lake Stephanie,withdrawal,pos,success
+TX1546,AC112,2026-01-05 13:15:00,-1201.52,SuperMart,Davidport,withdrawal,atm,success
+TX1547,AC105,2026-01-08 03:08:00,862.89,SuperMart,New Danielleshire,transfer,online,success
+TX1548,AC119,2026-01-10 11:31:00,7772.78,Shop,East Donna,withdrawal,atm,success
+TX1549,AC105,2026-01-01 17:50:00,5396.74,Grab,Meganshire,transfer,pos,success
+TX1550,AC102,2026-01-08 00:02:00,-3005.46,Grab,Port Michelleland,withdrawal,pos,success
+TX1551,AC108,2026-01-07 23:10:00,5222.08,CarDealer,Lake Kelliview,withdrawal,online,success
+TX1552,AC103,2026-01-01 09:16:00,3917.35,Shop,Port Ashley,payment,atm,success
+TX1553,AC117,2026-01-10 11:15:00,7699.79,Shop,South Pamelaside,transfer,atm,success
+TX1554,AC114,2026-01-06 20:03:00,11549.74,SuperMart,Dawnport,withdrawal,online,success
+TX1555,AC107,2026-01-05 16:29:00,9505.29,CoffeeShop,Sanchezfurt,transfer,pos,success
+TX1555_1,AC107,2026-01-05 16:31:46,9505.29,CoffeeShop,Sanchezfurt,transfer,pos,success
+TX1555_2,AC107,2026-01-05 16:30:33,9505.29,CoffeeShop,Sanchezfurt,transfer,pos,success
+TX1556,AC110,2026-01-04 03:47:00,4310.06,Grab,Shawnton,withdrawal,online,success
+TX1557,AC106,2026-01-11 12:12:00,8606.12,SuperMart,South Robert,withdrawal,online,success
+TX1558,AC107,2026-01-04 08:28:00,3102.47,Shop,Harrisberg,transfer,online,success
+TX1559,AC119,2026-01-02 05:25:00,10137.51,Grab,Michellemouth,withdrawal,online,success
+TX1560,AC118,2026-01-04 22:07:00,7385.61,CoffeeShop,Theresaberg,transfer,online,success
+TX1561,AC104,2026-01-04 12:31:00,5968.79,Grab,Zacharyville,withdrawal,pos,success
+TX1562,AC105,2026-01-07 01:12:00,5209.99,SuperMart,Johnville,payment,atm,success
+TX1563,AC118,2026-01-01 10:17:00,178.29,Grab,Shannonberg,transfer,pos,success
+TX1564,AC119,2026-01-07 13:47:00,3943.47,CoffeeShop,North Kellyfurt,transfer,online,success
+TX1565,AC112,2026-01-09 07:20:00,11283.18,CoffeeShop,Wrightburgh,transfer,online,success
+TX1566,AC108,2026-01-09 03:19:00,3429.27,CarDealer,Sarahmouth,withdrawal,pos,success
+TX1567,AC100,2026-01-10 10:27:00,14387.26,CarDealer,Port Erik,transfer,pos,success
+TX1568,AC115,2026-01-08 12:12:00,7755.59,CoffeeShop,Jimenezport,transfer,atm,success
+TX1569,AC108,2026-01-02 11:01:00,10358.46,SuperMart,Johnsonfurt,withdrawal,online,success
+TX1570,AC108,2026-01-05 10:34:00,5405.24,CoffeeShop,Levyborough,payment,pos,success
+TX1571,AC117,2026-01-08 05:21:00,2985.17,CarDealer,Brandonport,transfer,pos,success
+TX1572,AC112,2026-01-10 03:33:00,11048.16,Shop,Harperfort,transfer,pos,success
+TX1573,AC113,2026-01-03 05:45:00,9609.07,Shop,Amandaville,withdrawal,pos,success
+TX1574,AC109,2026-01-03 04:14:00,5155.04,CoffeeShop,Andersonview,withdrawal,atm,success
+TX1575,AC118,2026-01-10 05:15:00,12942.23,Shop,Kathrynstad,transfer,pos,success
+TX1576,AC102,2026-01-02 18:08:00,10916.86,CarDealer,South Brettside,payment,pos,success
+TX1577,AC112,2026-01-11 07:56:00,7098.31,Shop,West Angela,payment,online,success
+TX1578,AC107,2026-01-08 18:48:00,13973.91,CarDealer,South Williamside,withdrawal,pos,success
+TX1579,AC111,2026-01-07 07:50:00,-12577.93,CoffeeShop,Marciaville,transfer,pos,success
+TX1580,AC117,2026-01-04 10:23:00,8228.63,CarDealer,North Phillip,withdrawal,atm,success
+TX1581,AC117,2026-01-11 07:33:00,8460.2,CoffeeShop,Angelastad,transfer,pos,success
+TX1582,AC104,2026-01-06 08:39:00,4618.71,CoffeeShop,East Carrie,payment,online,success
+TX1583,AC100,2026-01-02 21:13:00,5158.93,SuperMart,Porterton,transfer,pos,failed
+TX1584,AC117,2026-01-04 15:59:00,8955.46,CoffeeShop,East Jenniferfort,payment,pos,success
+TX1585,AC112,2026-01-04 04:14:00,2449.88,SuperMart,Hernandezhaven,payment,pos,success
+TX1586,AC108,2026-01-07 05:04:00,11468.31,CoffeeShop,West Sarah,withdrawal,atm,success
+TX1587,AC109,2026-01-03 11:20:00,12802.38,Grab,Franciscoport,withdrawal,pos,success
+TX1588,AC104,2026-01-08 10:03:00,7380.45,Grab,Williamhaven,withdrawal,online,success
+TX1589,AC100,2026-01-04 09:30:00,1876.46,CarDealer,Ericksonport,payment,online,success
+TX1590,AC111,2026-01-06 02:45:00,4674.34,SuperMart,Cabrerastad,withdrawal,online,success
+TX1591,AC102,2026-01-02 23:53:00,841.52,Shop,Emilychester,transfer,online,success
+TX1592,AC107,2026-01-10 15:09:00,-5724.28,SuperMart,Lauratown,transfer,online,success
+TX1593,AC106,2026-01-06 13:50:00,11030.11,SuperMart,Bakershire,transfer,atm,success
+TX1594,AC117,2026-01-03 03:18:00,-9437.83,Shop,Lake Brett,payment,pos,success
+TX1595,AC106,2026-01-05 10:25:00,13312.91,Grab,Jacksonfurt,payment,atm,success
+TX1595_1,AC106,2026-01-05 10:27:41,13312.91,Grab,Jacksonfurt,payment,atm,success
+TX1595_2,AC106,2026-01-05 10:26:35,13312.91,Grab,Jacksonfurt,payment,atm,success
+TX1596,AC100,2026-01-07 23:39:00,1795.62,Grab,Port Erin,withdrawal,atm,success
+TX1597,AC115,2026-01-05 13:24:00,11562.18,Grab,New Stacyville,withdrawal,atm,success
+TX1598,AC104,2026-01-09 23:24:00,9377.36,Shop,North Scott,payment,online,success
+TX1599,AC114,2026-01-07 16:28:00,11828.64,CarDealer,Hernandezborough,payment,atm,success
+TX1600,AC114,2026-01-04 04:27:00,13480.05,Shop,Shawfort,transfer,atm,success
+TX1601,AC114,2026-01-03 10:57:00,8154.76,CoffeeShop,Lake Devinborough,withdrawal,atm,success
+TX1602,AC111,2026-01-06 10:42:00,4435.79,SuperMart,Whitneyfort,payment,atm,success
+TX1603,AC119,2026-01-11 09:05:00,281.78,CarDealer,Edwardsburgh,transfer,atm,success
+TX1604,AC115,2026-01-10 15:39:00,5812.98,Shop,Barrmouth,payment,atm,success
+TX1605,AC102,2026-01-04 23:56:00,1657.85,Grab,Ericaview,payment,online,success
+TX1606,AC112,2026-01-06 20:32:00,-2875.06,SuperMart,Leebury,withdrawal,atm,success
+TX1607,AC100,2026-01-05 12:02:00,3311.62,CarDealer,Angelabury,withdrawal,pos,success
+TX1608,AC117,2026-01-06 15:48:00,12015.5,SuperMart,Kellieborough,transfer,atm,success
+TX1609,AC109,2026-01-07 08:27:00,610.76,Grab,Stewartstad,payment,atm,success
+TX1610,AC107,2026-01-07 09:10:00,5780.58,Shop,Keithshire,withdrawal,online,success
+TX1611,AC111,2026-01-09 19:44:00,1583.61,SuperMart,Huangfurt,withdrawal,atm,success
+TX1612,AC110,2026-01-10 08:23:00,2706.77,CarDealer,Stephanieberg,withdrawal,atm,success
+TX1613,AC111,2026-01-04 22:03:00,8251.67,SuperMart,Bobbyland,withdrawal,pos,success
+TX1614,AC117,2026-01-04 01:43:00,8447.61,CoffeeShop,Sandraview,transfer,pos,success
+TX1615,AC100,2026-01-09 14:19:00,520.91,Shop,Lewisside,payment,pos,failed
+TX1616,AC108,2026-01-03 18:39:00,-12835.95,Shop,Sarahview,withdrawal,atm,success
+TX1617,AC104,2026-01-02 09:44:00,567.01,CoffeeShop,North Christina,transfer,atm,success
+TX1618,AC106,2026-01-04 18:00:00,1379.48,Grab,East Brent,withdrawal,pos,success
+TX1619,AC103,2026-01-10 17:28:00,13485.46,Shop,Lake Jesse,withdrawal,pos,success
+TX1620,AC110,2026-01-05 16:11:00,1178.08,CoffeeShop,South Markfort,transfer,pos,success
+TX1621,AC119,2026-01-10 02:22:00,3401.54,Grab,Lake Kellitown,withdrawal,atm,success
+TX1622,AC110,2026-01-01 19:14:00,4790.43,Shop,South Denise,withdrawal,online,success
+TX1623,AC118,2026-01-05 19:16:00,14565.63,Shop,Woodsborough,payment,online,success
+TX1624,AC118,2026-01-03 00:25:00,1983.7,Grab,Manuelton,withdrawal,pos,success
+TX1625,AC104,2026-01-06 06:38:00,11607.6,SuperMart,Lake Audreyside,withdrawal,online,success
+TX1626,AC116,2026-01-03 13:32:00,8417.95,CarDealer,East Robertburgh,payment,online,success
+TX1627,AC113,2026-01-09 02:58:00,13862.15,SuperMart,Port Randyfort,transfer,pos,success
+TX1628,AC111,2026-01-08 18:58:00,364.08,Shop,Lake Suzanne,transfer,atm,success
+TX1629,AC104,2026-01-10 15:24:00,3503.11,Grab,Nancytown,payment,atm,success
+TX1630,AC100,2026-01-03 00:19:00,13031.42,CoffeeShop,Ashleyville,withdrawal,online,success
+TX1631,AC106,2026-01-05 02:37:00,3135.93,Shop,Justinside,withdrawal,pos,success
+TX1632,AC112,2026-01-02 22:35:00,10426.37,Shop,Smallberg,withdrawal,atm,success
+TX1633,AC108,2026-01-04 13:33:00,3011.24,Grab,Nelsonville,transfer,atm,success
+TX1634,AC111,2026-01-08 20:19:00,4070.38,Grab,Franciscomouth,payment,pos,success
+TX1635,AC103,2026-01-03 23:07:00,14696.91,CoffeeShop,Jennifertown,transfer,atm,success
+TX1636,AC100,2026-01-07 00:42:00,14501.9,Grab,Krystalshire,payment,atm,success
+TX1637,AC111,2026-01-09 19:16:00,2355.92,CoffeeShop,East Cheryl,withdrawal,pos,success
+TX1638,AC108,2026-01-07 00:52:00,4138.9,SuperMart,Wilcoxhaven,payment,atm,success
+TX1639,AC102,2026-01-05 05:19:00,13457.73,SuperMart,Christopherville,withdrawal,atm,success
+TX1640,AC113,2026-01-03 22:06:00,6260.58,CoffeeShop,East Thomas,withdrawal,pos,success
+TX1641,AC106,2026-01-08 18:10:00,2079.51,CarDealer,North Jose,transfer,atm,success
+TX1642,AC104,2026-01-02 20:55:00,6451.53,Shop,South Karen,payment,pos,success
+TX1643,AC104,2026-01-09 12:27:00,1776.69,Grab,Kevinshire,transfer,pos,success
+TX1644,AC108,2026-01-09 19:36:00,14006.59,CarDealer,West Desireebury,payment,online,success
+TX1645,AC119,2026-01-08 07:06:00,9254.58,CarDealer,Lake Davidport,withdrawal,online,success
+TX1646,AC116,2026-01-02 05:42:00,10322.43,Shop,South Gina,transfer,atm,success
+TX1647,AC106,2026-01-05 17:48:00,7372.19,CarDealer,Hannahport,payment,pos,success
+TX1647_1,AC106,2026-01-05 17:49:34,7372.19,CarDealer,Hannahport,payment,pos,success
+TX1647_2,AC106,2026-01-05 17:49:52,7372.19,CarDealer,Hannahport,payment,pos,success
+TX1648,AC106,2026-01-03 20:46:00,11135.76,Grab,Christinabury,payment,pos,success
+TX1649,AC113,2026-01-05 00:43:00,13001.76,SuperMart,South Eric,payment,atm,success
+TX1650,AC118,2026-01-04 21:26:00,5912.87,Shop,Robertside,withdrawal,atm,success
+TX1651,AC101,2026-01-01 18:30:00,7810.22,CarDealer,Toddborough,withdrawal,atm,success
+TX1652,AC101,2026-01-07 16:17:00,5811.58,CarDealer,Lake Karen,transfer,pos,success
+TX1653,AC109,2026-01-10 17:59:00,4289.43,Shop,New Seanstad,payment,atm,success
+TX1654,AC116,2026-01-10 18:36:00,9691.88,Grab,New Danielside,payment,atm,success
+TX1655,AC100,2026-01-02 20:56:00,5896.61,CarDealer,New Amanda,transfer,atm,success
+TX1656,AC105,2026-01-11 08:59:00,6820.79,Grab,West Melissa,payment,online,success
+TX1657,AC116,2026-01-02 07:17:00,7857.74,Shop,Wilsonborough,payment,pos,success
+TX1658,AC104,2026-01-03 06:39:00,13683.88,CarDealer,Davishaven,payment,online,success
+TX1659,AC114,2026-01-04 20:07:00,4643.47,CoffeeShop,Stokesmouth,withdrawal,online,success
+TX1660,AC100,2026-01-03 15:23:00,53.99,SuperMart,New Robert,transfer,pos,success
+TX1660_1,AC100,2026-01-03 15:25:52,53.99,SuperMart,New Robert,transfer,pos,success
+TX1660_2,AC100,2026-01-03 15:25:03,53.99,SuperMart,New Robert,transfer,pos,success
+TX1661,AC114,2026-01-04 00:57:00,3253.89,SuperMart,New Stevenport,transfer,online,success
+TX1661_1,AC114,2026-01-04 00:59:52,3253.89,SuperMart,New Stevenport,transfer,online,success
+TX1661_2,AC114,2026-01-04 00:59:10,3253.89,SuperMart,New Stevenport,transfer,online,success
+TX1662,AC106,2026-01-04 11:56:00,9296.87,Grab,South Jonathantown,payment,online,success
+TX1663,AC119,2026-01-02 23:41:00,12807.59,CoffeeShop,New Charles,transfer,online,success
+TX1664,AC119,2026-01-03 08:40:00,2420.87,Shop,Cooperland,withdrawal,online,success
+TX1665,AC109,2026-01-05 10:21:00,13972.27,CoffeeShop,North Valeriefort,transfer,pos,success
+TX1666,AC104,2026-01-10 22:16:00,8257.52,Grab,West Robertberg,withdrawal,pos,success
+TX1667,AC103,2026-01-03 17:18:00,10437.75,Shop,Brooksfurt,withdrawal,atm,success
+TX1668,AC109,2026-01-09 13:43:00,10330.13,SuperMart,Kanefurt,withdrawal,pos,success
+TX1669,AC118,2026-01-08 10:11:00,5308.45,SuperMart,Millerside,withdrawal,atm,success
+TX1670,AC109,2026-01-03 09:07:00,13255.07,CarDealer,Lake Michelle,payment,online,success
+TX1671,AC119,2026-01-02 16:12:00,11062.29,SuperMart,East Victoriafurt,transfer,online,success
+TX1672,AC109,2026-01-08 14:04:00,3185.86,CoffeeShop,Lake Tiffany,payment,pos,success
+TX1673,AC110,2026-01-10 01:27:00,92.96,SuperMart,Port Andrewport,withdrawal,atm,success
+TX1674,AC115,2026-01-03 07:57:00,2911.04,SuperMart,Nunezside,payment,atm,success
+TX1675,AC110,2026-01-06 13:46:00,13380.98,SuperMart,Patelbury,transfer,atm,success
+TX1676,AC117,2026-01-07 18:16:00,10874.74,Grab,South Michael,payment,atm,success
+TX1677,AC104,2026-01-11 10:29:00,11936.95,CoffeeShop,Jacobville,payment,pos,success
+TX1678,AC105,2026-01-10 22:01:00,2490.38,Shop,Port Donnatown,payment,pos,success
+TX1679,AC107,2026-01-01 16:38:00,4073.19,CoffeeShop,East Carlos,transfer,pos,success
+TX1680,AC106,2026-01-02 14:38:00,-5613.86,Grab,South Carlaton,transfer,atm,success
+TX1681,AC115,2026-01-07 00:32:00,2312.01,Shop,Lake Bradley,transfer,pos,success
+TX1682,AC104,2026-01-10 16:29:00,14734.12,CarDealer,Youngborough,withdrawal,online,success
+TX1683,AC101,2026-01-07 06:38:00,1738.42,Shop,East Williamport,payment,pos,success
+TX1684,AC100,2026-01-07 06:09:00,11492.94,Shop,Port Sabrina,transfer,atm,success
+TX1685,AC114,2026-01-03 12:34:00,4299.22,Grab,Barbaramouth,transfer,online,success
+TX1686,AC117,2026-01-08 10:06:00,8394.83,CoffeeShop,West Nancy,withdrawal,pos,success
+TX1687,AC102,2026-01-10 11:32:00,4249.73,CoffeeShop,South Kevin,withdrawal,pos,success
+TX1688,AC103,2026-01-01 15:55:00,7061.56,SuperMart,New Stacyburgh,payment,online,success
+TX1689,AC114,2026-01-08 02:46:00,13369.25,Shop,Peterston,transfer,pos,success
+TX1690,AC114,2026-01-09 23:05:00,10063.38,Shop,Shellyfurt,payment,online,success
+TX1691,AC114,2026-01-06 15:52:00,1459.85,SuperMart,Heatherchester,payment,online,success
+TX1692,AC110,2026-01-04 06:27:00,13693.01,CoffeeShop,West Nicholas,transfer,pos,success
+TX1693,AC109,2026-01-05 07:58:00,7180.3,CoffeeShop,Allenbury,withdrawal,atm,success
+TX1694,AC117,2026-01-10 15:14:00,10714.38,Grab,Meredithberg,transfer,atm,success
+TX1695,AC115,2026-01-04 01:08:00,9313.5,SuperMart,Melendezside,payment,pos,success
+TX1696,AC110,2026-01-06 05:43:00,11764.93,Shop,Faulknerside,withdrawal,online,success
+TX1697,AC115,2026-01-09 17:53:00,13963.02,Grab,South John,withdrawal,atm,success
+TX1698,AC112,2026-01-10 16:28:00,6678.8,Grab,West Deborah,withdrawal,online,success
+TX1699,AC101,2026-01-10 15:52:00,5684.29,Grab,Booneland,payment,online,success
+TX1700,AC104,2026-01-08 13:42:00,12147.78,SuperMart,North Joseph,withdrawal,pos,success
+TX1701,AC109,2026-01-03 13:25:00,3085.72,Shop,Port Charlesshire,withdrawal,pos,success
+TX1702,AC102,2026-01-09 12:00:00,14738.72,Shop,South Jason,payment,atm,success
+TX1703,AC117,2026-01-02 18:49:00,12787.73,Grab,Kevintown,payment,atm,success
+TX1704,AC107,2026-01-02 13:57:00,12918.86,SuperMart,East Suzanne,withdrawal,atm,success
+TX1705,AC106,2026-01-05 16:31:00,6091.08,CarDealer,Lake Yvonnefort,transfer,online,success
+TX1706,AC104,2026-01-05 10:22:00,12599.6,CarDealer,Lake Cassandra,payment,online,success
+TX1707,AC104,2026-01-11 09:38:00,7301.03,Grab,South Rose,payment,atm,success
+TX1708,AC113,2026-01-11 12:00:00,11834.14,Shop,Kimberlyfurt,payment,pos,success
+TX1709,AC113,2026-01-06 10:53:00,5771.34,Shop,Fergusonstad,payment,atm,success
+TX1710,AC117,2026-01-09 10:27:00,7526.43,Shop,Josehaven,transfer,online,success
+TX1711,AC102,2026-01-09 08:28:00,5529.31,CarDealer,Owensfort,withdrawal,atm,success
+TX1712,AC102,2026-01-09 20:57:00,11683.27,Shop,Robinstad,withdrawal,online,success
+TX1713,AC117,2026-01-08 21:14:00,14406.21,Shop,Robertshire,transfer,atm,success
+TX1714,AC115,2026-01-10 04:35:00,162.74,Shop,Lake Dustin,withdrawal,pos,success
+TX1715,AC119,2026-01-10 09:58:00,4419.97,CoffeeShop,Angelashire,withdrawal,atm,success
+TX1716,AC109,2026-01-07 21:52:00,2537.02,Shop,Phillipsborough,payment,pos,success
+TX1717,AC104,2026-01-02 04:59:00,12771.83,Shop,Jerryshire,transfer,pos,success
+TX1717_1,AC104,2026-01-02 05:00:14,12771.83,Shop,Jerryshire,transfer,pos,success
+TX1717_2,AC104,2026-01-02 05:01:17,12771.83,Shop,Jerryshire,transfer,pos,success
+TX1718,AC114,2026-01-03 07:40:00,13652.06,CoffeeShop,South Andrea,payment,pos,success
+TX1719,AC110,2026-01-03 09:22:00,11990.78,Grab,Jonathanfort,payment,atm,success
+TX1720,AC112,2026-01-06 23:25:00,11291.67,CarDealer,Murraystad,withdrawal,pos,success
+TX1721,AC108,2026-01-07 21:45:00,11015.68,Grab,East Jennifer,payment,online,success
+TX1722,AC117,2026-01-06 18:03:00,11192.51,CarDealer,Whiteside,transfer,atm,success
+TX1723,AC109,2026-01-02 23:38:00,7957.1,SuperMart,New Arthurland,transfer,atm,success
+TX1724,AC111,2026-01-01 19:12:00,1461.37,SuperMart,Port Adamberg,withdrawal,atm,success
+TX1725,AC118,2026-01-04 08:55:00,12034.94,SuperMart,North Jasmine,transfer,atm,success
+TX1726,AC105,2026-01-08 00:45:00,11557.69,CoffeeShop,East Williamstad,withdrawal,online,success
+TX1727,AC114,2026-01-01 11:15:00,6169.32,CoffeeShop,New Danafort,payment,atm,success
+TX1728,AC119,2026-01-01 14:28:00,9291.34,CarDealer,Smithside,withdrawal,atm,success
+TX1729,AC118,2026-01-02 07:35:00,12846.76,CarDealer,Smithhaven,payment,atm,success
+TX1730,AC108,2026-01-08 20:21:00,14042.79,SuperMart,Amandaport,withdrawal,atm,success
+TX1731,AC101,2026-01-03 04:13:00,11711.19,SuperMart,New Lisachester,transfer,pos,success
+TX1732,AC115,2026-01-10 13:56:00,3970.71,CarDealer,North Samantha,withdrawal,pos,success
+TX1733,AC119,2026-01-02 23:17:00,8109.94,Grab,East James,transfer,atm,success
+TX1734,AC114,2026-01-02 03:13:00,8570.6,Grab,Lisaview,transfer,online,success
+TX1734_1,AC114,2026-01-02 03:14:04,8570.6,Grab,Lisaview,transfer,online,success
+TX1734_2,AC114,2026-01-02 03:15:25,8570.6,Grab,Lisaview,transfer,online,success
+TX1735,AC112,2026-01-05 18:37:00,3997.28,Shop,Millerfurt,payment,atm,success
+TX1736,AC102,2026-01-06 18:33:00,6541.43,Shop,Cunninghambury,payment,online,success
+TX1737,AC111,2026-01-10 04:56:00,7231.51,CoffeeShop,Gabriellaland,withdrawal,pos,success
+TX1738,AC110,2026-01-08 16:41:00,1360.91,Grab,North Richardfurt,transfer,pos,success
+TX1739,AC109,2026-01-01 18:44:00,14512.73,SuperMart,Browntown,payment,atm,success
+TX1740,AC104,2026-01-11 09:43:00,9492.24,Grab,North Vincent,payment,online,success
+TX1741,AC109,2026-01-06 21:35:00,5832.12,SuperMart,Newmanmouth,withdrawal,pos,success
+TX1741_1,AC109,2026-01-06 21:36:43,5832.12,SuperMart,Newmanmouth,withdrawal,pos,success
+TX1741_2,AC109,2026-01-06 21:36:07,5832.12,SuperMart,Newmanmouth,withdrawal,pos,success
+TX1742,AC103,2026-01-05 04:13:00,-11816.89,CarDealer,New Samanthabury,withdrawal,atm,success
+TX1743,AC118,2026-01-11 05:37:00,13113.96,CarDealer,Port Heather,payment,online,success
+TX1744,AC101,2026-01-01 13:12:00,7068.82,CarDealer,Nelsonland,withdrawal,atm,success
+TX1745,AC103,2026-01-01 21:38:00,13570.03,SuperMart,Rachelshire,withdrawal,online,success
+TX1746,AC119,2026-01-10 15:13:00,1595.86,CarDealer,East Sarahmouth,payment,online,success
+TX1747,AC118,2026-01-09 17:30:00,10176.29,Shop,East Brendafurt,payment,pos,success
+TX1748,AC102,2026-01-10 00:41:00,684.75,Grab,West Franciscobury,transfer,online,success
+TX1749,AC118,2026-01-05 13:00:00,8301.56,Grab,Rhodesside,payment,online,success
+TX1750,AC115,2026-01-05 14:42:00,-11665.15,Grab,Patrickberg,payment,online,success
+TX1751,AC115,2026-01-08 17:58:00,8906.36,CarDealer,New Juliestad,payment,online,success
+TX1752,AC101,2026-01-06 00:30:00,3589.57,Shop,North Samuelland,payment,atm,success
+TX1753,AC113,2026-01-08 11:15:00,12397.43,Grab,Cassiefurt,withdrawal,online,success
+TX1754,AC117,2026-01-02 10:07:00,9284.2,Shop,Anthonyview,payment,pos,success
+TX1755,AC104,2026-01-04 11:28:00,796.98,SuperMart,Henrystad,transfer,online,success
+TX1756,AC113,2026-01-01 22:45:00,9673.27,CoffeeShop,Reynoldsshire,transfer,atm,success
+TX1757,AC117,2026-01-01 19:49:00,1567.21,CarDealer,Millerport,payment,online,success
+TX1758,AC118,2026-01-11 12:24:00,3530.26,CoffeeShop,Lake Charles,transfer,online,success
+TX1759,AC103,2026-01-03 22:49:00,11684.85,CarDealer,Ericberg,withdrawal,pos,success
+TX1760,AC101,2026-01-03 20:15:00,1103.87,SuperMart,Stewartville,payment,online,success
+TX1761,AC106,2026-01-05 17:46:00,5602.9,CoffeeShop,North Sherrymouth,transfer,online,success
+TX1762,AC114,2026-01-07 19:17:00,895.72,SuperMart,Kathleenville,transfer,online,success
+TX1763,AC119,2026-01-04 16:35:00,9054.94,CarDealer,North Jacob,withdrawal,atm,success
+TX1764,AC106,2026-01-11 02:00:00,7827.01,Shop,Hawkinshaven,transfer,pos,success
+TX1765,AC113,2026-01-09 17:01:00,13089.1,Shop,Garcialand,payment,atm,success
+TX1766,AC101,2026-01-11 13:16:00,77.16,SuperMart,Angelamouth,withdrawal,atm,success
+TX1767,AC103,2026-01-06 18:52:00,12145.94,SuperMart,Smithchester,transfer,online,success
+TX1768,AC104,2026-01-09 05:16:00,10977.06,CoffeeShop,Maxwellside,transfer,online,success
+TX1769,AC114,2026-01-06 19:00:00,10035.87,Shop,New Adriana,withdrawal,atm,success
+TX1770,AC105,2026-01-10 02:45:00,2080.22,CoffeeShop,Jacksonview,withdrawal,pos,success
+TX1770_1,AC105,2026-01-10 02:47:20,2080.22,CoffeeShop,Jacksonview,withdrawal,pos,success
+TX1770_2,AC105,2026-01-10 02:46:09,2080.22,CoffeeShop,Jacksonview,withdrawal,pos,success
+TX1771,AC101,2026-01-05 17:05:00,13401.62,CoffeeShop,Josephberg,transfer,pos,success
+TX1772,AC102,2026-01-07 21:04:00,11917.39,Shop,East Ryanchester,transfer,atm,success
+TX1773,AC103,2026-01-11 16:29:00,10120.12,SuperMart,Toddland,transfer,pos,success
+TX1774,AC117,2026-01-03 07:51:00,9722.94,CarDealer,Johnathanbury,payment,pos,success
+TX1775,AC106,2026-01-06 18:39:00,11060.96,CarDealer,Wheelerborough,transfer,pos,success
+TX1776,AC111,2026-01-06 03:29:00,4157.9,SuperMart,Rodriguezport,transfer,atm,success
+TX1777,AC109,2026-01-09 09:49:00,7979.04,SuperMart,South Martinfurt,withdrawal,pos,success
+TX1778,AC106,2026-01-10 12:51:00,14671.29,SuperMart,Scottchester,payment,online,success
+TX1779,AC104,2026-01-02 05:00:00,1641.36,SuperMart,West Malik,payment,online,success
+TX1780,AC104,2026-01-04 16:03:00,6248.63,SuperMart,South Leon,transfer,pos,success
+TX1781,AC107,2026-01-04 15:36:00,-2836.72,Shop,Novakport,withdrawal,pos,success
+TX1782,AC116,2026-01-08 16:24:00,11802.58,Shop,Faulknerbury,transfer,pos,success
+TX1783,AC107,2026-01-10 07:32:00,4598.12,SuperMart,Nicholasfurt,transfer,pos,success
+TX1784,AC119,2026-01-05 08:25:00,4266.45,CarDealer,Danielshire,withdrawal,atm,success
+TX1785,AC104,2026-01-10 21:11:00,10621.96,CarDealer,New Wendy,payment,online,success
+TX1786,AC106,2026-01-02 18:32:00,6613.89,Shop,Lake Katrina,withdrawal,online,success
+TX1787,AC105,2026-01-03 00:23:00,5594.35,Shop,Lake Stevenborough,transfer,online,success
+TX1788,AC110,2026-01-07 00:22:00,11528.0,CarDealer,Salinasland,payment,atm,success
+TX1789,AC109,2026-01-08 16:44:00,10582.06,Shop,Chambersberg,withdrawal,online,success
+TX1790,AC115,2026-01-06 08:43:00,5080.93,Grab,Johnberg,payment,atm,success
+TX1791,AC111,2026-01-05 21:40:00,9263.21,Grab,Mccormickland,transfer,online,success
+TX1792,AC108,2026-01-07 07:45:00,3332.94,CarDealer,Ewingfort,payment,online,success
+TX1793,AC112,2026-01-08 23:22:00,14364.4,CarDealer,Fergusonchester,transfer,pos,success
+TX1794,AC104,2026-01-01 23:18:00,13626.8,SuperMart,Port Tanyaside,transfer,pos,success
+TX1795,AC117,2026-01-05 07:56:00,4621.97,Grab,North Kaylastad,payment,atm,success
+TX1796,AC113,2026-01-06 01:29:00,12055.48,SuperMart,Lake Cheyenne,payment,atm,success
+TX1797,AC110,2026-01-04 18:48:00,7119.72,Grab,Rasmussenmouth,withdrawal,pos,success
+TX1798,AC114,2026-01-11 17:41:00,4100.66,Shop,Rodriguezville,payment,online,success
+TX1799,AC109,2026-01-07 15:14:00,7359.29,Shop,Jeffreyhaven,transfer,pos,success
+TX1800,AC109,2026-01-01 15:19:00,11868.5,SuperMart,South Neil,payment,atm,success
+TX1801,AC107,2026-01-03 08:58:00,7378.81,Grab,Bartonshire,payment,pos,success
+TX1802,AC118,2026-01-08 03:32:00,11183.74,SuperMart,West Whitney,transfer,atm,success
+TX1803,AC118,2026-01-10 15:26:00,1794.64,Grab,Garciachester,transfer,online,success
+TX1804,AC105,2026-01-06 13:53:00,13174.88,Grab,North Marieberg,transfer,pos,success
+TX1805,AC102,2026-01-05 09:12:00,731.67,Shop,Larrymouth,payment,atm,success
+TX1806,AC110,2026-01-09 21:31:00,2507.87,CoffeeShop,New Timothy,transfer,atm,success
+TX1807,AC100,2026-01-07 09:55:00,8701.12,CarDealer,Davismouth,withdrawal,pos,success
+TX1808,AC106,2026-01-05 04:55:00,13813.69,CarDealer,Carloston,withdrawal,online,success
+TX1809,AC116,2026-01-07 16:33:00,9201.81,Shop,North Melindaville,withdrawal,atm,success
+TX1810,AC104,2026-01-06 01:57:00,6907.91,Grab,Lake John,transfer,pos,success
+TX1811,AC116,2026-01-10 15:06:00,6629.63,CoffeeShop,New Ethan,payment,atm,success
+TX1812,AC104,2026-01-02 16:23:00,3336.15,CarDealer,Mullenbury,transfer,online,success
+TX1813,AC102,2026-01-06 04:00:00,10362.58,Grab,Sotoburgh,transfer,pos,success
+TX1814,AC115,2026-01-10 08:33:00,9897.17,Grab,Fosterborough,transfer,online,success
+TX1815,AC119,2026-01-09 22:02:00,1448.46,CarDealer,Vargasfurt,withdrawal,online,success
+TX1816,AC108,2026-01-02 08:47:00,2184.21,Shop,Lake Jasonview,transfer,pos,success
+TX1817,AC102,2026-01-09 14:56:00,9194.73,Grab,New Cristianside,withdrawal,online,success
+TX1818,AC100,2026-01-04 12:57:00,2577.43,Grab,West Mark,payment,atm,success
+TX1819,AC103,2026-01-09 06:38:00,8841.12,CarDealer,Wilsonfort,transfer,pos,success
+TX1820,AC103,2026-01-05 23:17:00,1693.57,SuperMart,Candicefurt,payment,atm,success
+TX1821,AC102,2026-01-09 08:26:00,4324.78,CoffeeShop,West Michaelmouth,transfer,online,success
+TX1822,AC114,2026-01-09 17:01:00,4680.79,CarDealer,Port Emily,withdrawal,pos,success
+TX1823,AC115,2026-01-03 11:33:00,12851.75,CoffeeShop,Samanthashire,payment,online,success
+TX1824,AC102,2026-01-02 12:43:00,5946.15,Grab,Lake Dennisville,payment,pos,success
+TX1825,AC105,2026-01-02 11:46:00,11121.74,Grab,West Daryl,transfer,online,success
+TX1826,AC115,2026-01-05 22:23:00,1842.31,CoffeeShop,Heatherhaven,withdrawal,atm,success
+TX1827,AC115,2026-01-10 10:43:00,9657.82,Shop,Barnesberg,transfer,pos,success
+TX1828,AC115,2026-01-06 12:08:00,1621.44,CarDealer,Hendersonfort,withdrawal,online,success
+TX1829,AC105,2026-01-10 18:43:00,1024.36,SuperMart,New Garrett,withdrawal,atm,success
+TX1830,AC116,2026-01-08 10:11:00,1445.91,SuperMart,Donaldmouth,transfer,online,success
+TX1831,AC117,2026-01-07 01:50:00,3925.72,Shop,Harveystad,payment,online,success
+TX1832,AC112,2026-01-02 16:31:00,5755.06,SuperMart,South Derrickfurt,transfer,online,success
+TX1833,AC105,2026-01-11 02:56:00,11690.96,SuperMart,Ortizfort,transfer,online,success
+TX1834,AC117,2026-01-10 00:37:00,1641.62,Shop,Mckinneymouth,withdrawal,pos,success
+TX1835,AC118,2026-01-07 02:21:00,837.0,SuperMart,Jacksonshire,withdrawal,atm,success
+TX1836,AC104,2026-01-04 23:30:00,922.3,CoffeeShop,Port Kathleenport,transfer,atm,success
+TX1837,AC111,2026-01-08 10:42:00,5119.51,CoffeeShop,West Jeffreyport,transfer,pos,success
+TX1838,AC102,2026-01-04 00:04:00,9721.59,CoffeeShop,Port Stephen,payment,pos,success
+TX1839,AC118,2026-01-01 18:12:00,6914.18,Shop,Dunnville,transfer,pos,success
+TX1840,AC112,2026-01-01 14:04:00,14786.49,CoffeeShop,West Kimberlystad,withdrawal,online,success
+TX1841,AC110,2026-01-09 00:21:00,3089.42,CarDealer,Port Jenniferside,withdrawal,pos,success
+TX1842,AC102,2026-01-06 23:42:00,9532.03,Shop,South Curtis,payment,pos,success
+TX1843,AC102,2026-01-07 20:36:00,6031.01,Shop,West Nancy,payment,atm,success
+TX1844,AC111,2026-01-10 10:46:00,7966.42,Grab,South Joseland,withdrawal,pos,success
+TX1845,AC112,2026-01-08 21:10:00,8099.67,CoffeeShop,Grimesville,withdrawal,atm,success
+TX1846,AC116,2026-01-03 09:18:00,13213.57,CarDealer,East Lisa,withdrawal,pos,success
+TX1847,AC117,2026-01-09 18:40:00,14071.61,Shop,Michellechester,transfer,atm,success
+TX1848,AC104,2026-01-03 14:47:00,5464.76,CoffeeShop,New Donald,transfer,pos,success
+TX1849,AC108,2026-01-02 01:35:00,9509.28,CoffeeShop,Port Jamie,withdrawal,online,success
+TX1850,AC100,2026-01-05 22:49:00,3578.01,CarDealer,New Michaelview,transfer,pos,success
+TX1851,AC105,2026-01-06 03:14:00,-9704.18,CoffeeShop,West Tiffany,payment,online,success
+TX1852,AC101,2026-01-08 19:51:00,8261.04,SuperMart,Keithview,payment,online,success
+TX1853,AC113,2026-01-08 04:16:00,4470.39,CoffeeShop,East Sydneychester,withdrawal,atm,success
+TX1854,AC103,2026-01-10 21:19:00,10863.79,Shop,West Michelleberg,withdrawal,atm,success
+TX1855,AC116,2026-01-10 18:22:00,8706.72,CoffeeShop,East Dustin,transfer,online,success
+TX1856,AC112,2026-01-10 12:16:00,4701.84,CarDealer,Mariafurt,transfer,online,success
+TX1857,AC118,2026-01-04 10:58:00,6592.69,Grab,Thomasview,transfer,atm,success
+TX1858,AC107,2026-01-04 22:25:00,8186.63,CoffeeShop,Brooksland,payment,pos,success
+TX1859,AC119,2026-01-04 20:09:00,317.09,Grab,South Zacharyview,withdrawal,atm,success
+TX1860,AC112,2026-01-10 07:23:00,10074.31,CoffeeShop,Shawnfort,withdrawal,atm,success
+TX1861,AC114,2026-01-02 17:19:00,8024.13,SuperMart,Brandiland,payment,pos,success
+TX1862,AC107,2026-01-04 18:09:00,1354.66,CoffeeShop,Reidstad,payment,online,success
+TX1863,AC101,2026-01-11 08:09:00,12183.9,CoffeeShop,Port Amandaborough,payment,pos,success
+TX1864,AC103,2026-01-10 21:41:00,4991.5,CarDealer,Summersfort,withdrawal,pos,success
+TX1865,AC110,2026-01-08 04:25:00,10938.74,SuperMart,Marcusport,withdrawal,online,success
+TX1866,AC104,2026-01-03 10:10:00,9452.71,Grab,Amyberg,transfer,online,success
+TX1867,AC104,2026-01-02 06:27:00,1663.31,Shop,Kramerton,withdrawal,pos,success
+TX1868,AC105,2026-01-06 18:37:00,13102.71,Shop,North Conniemouth,transfer,pos,success
+TX1869,AC118,2026-01-03 09:40:00,5903.02,CarDealer,North Sarahburgh,payment,online,success
+TX1870,AC114,2026-01-08 11:06:00,3431.38,CarDealer,Bryantchester,transfer,atm,success
+TX1871,AC102,2026-01-08 08:45:00,6434.12,CoffeeShop,Lake Regina,payment,atm,success
+TX1872,AC115,2026-01-06 06:49:00,11600.62,Grab,Erikview,payment,atm,success
+TX1873,AC115,2026-01-10 14:06:00,11732.05,SuperMart,Lake Michaelland,payment,pos,success
+TX1874,AC113,2026-01-10 17:01:00,4245.23,CarDealer,Elizabethburgh,transfer,online,success
+TX1875,AC111,2026-01-04 00:18:00,9265.59,Shop,South Conniebury,withdrawal,atm,success
+TX1875_1,AC111,2026-01-04 00:19:17,9265.59,Shop,South Conniebury,withdrawal,atm,success
+TX1875_2,AC111,2026-01-04 00:20:51,9265.59,Shop,South Conniebury,withdrawal,atm,success
+TX1876,AC106,2026-01-05 00:16:00,14616.01,SuperMart,Riosville,withdrawal,pos,success
+TX1877,AC107,2026-01-02 10:01:00,8355.44,SuperMart,East Thomasberg,transfer,atm,success
+TX1878,AC100,2026-01-08 03:21:00,10643.78,CoffeeShop,New Erin,withdrawal,atm,success
+TX1879,AC117,2026-01-08 23:17:00,5564.15,Grab,North Heatherville,withdrawal,online,success
+TX1880,AC110,2026-01-05 04:37:00,13168.57,Shop,Bensonfort,transfer,online,success
+TX1881,AC108,2026-01-02 18:55:00,7488.66,CoffeeShop,East Patrickville,transfer,pos,success
+TX1882,AC110,2026-01-10 18:31:00,11423.7,SuperMart,West Michaelport,payment,pos,success
+TX1883,AC114,2026-01-03 01:18:00,8335.56,Grab,South Kiara,payment,online,success
+TX1884,AC113,2026-01-06 16:24:00,3904.1,Grab,Lake Victoria,transfer,online,success
+TX1885,AC104,2026-01-07 17:09:00,7278.51,Grab,North Alyssa,transfer,online,success
+TX1886,AC108,2026-01-10 19:59:00,2525.26,Shop,New Debramouth,withdrawal,atm,success
+TX1887,AC113,2026-01-01 09:07:00,7890.71,Grab,Jenniferberg,payment,pos,success
+TX1888,AC103,2026-01-01 15:05:00,4264.93,SuperMart,Jensenmouth,transfer,atm,success
+TX1889,AC115,2026-01-05 00:20:00,2307.48,SuperMart,North Peggy,withdrawal,pos,success
+TX1889_1,AC115,2026-01-05 00:21:05,2307.48,SuperMart,North Peggy,withdrawal,pos,success
+TX1889_2,AC115,2026-01-05 00:22:23,2307.48,SuperMart,North Peggy,withdrawal,pos,success
+TX1890,AC118,2026-01-08 09:56:00,14263.49,CarDealer,Port David,payment,online,success
+TX1891,AC119,2026-01-10 09:56:00,833.97,SuperMart,Bellchester,payment,pos,success
+TX1892,AC106,2026-01-10 02:30:00,12982.87,CarDealer,Kyliebury,transfer,pos,success
+TX1893,AC113,2026-01-08 18:36:00,2312.87,CoffeeShop,Deannabury,withdrawal,atm,success
+TX1894,AC114,2026-01-10 19:12:00,5512.48,SuperMart,Kimberlytown,transfer,pos,success
+TX1895,AC105,2026-01-09 22:34:00,6338.62,SuperMart,Jamiehaven,withdrawal,pos,success
+TX1896,AC104,2026-01-06 14:34:00,10146.92,SuperMart,Lake Peter,withdrawal,atm,success
+TX1897,AC115,2026-01-06 15:51:00,6560.9,CoffeeShop,Port Rachaelbury,payment,online,success
+TX1898,AC101,2026-01-04 03:53:00,7846.86,Shop,Cruzbury,payment,online,success
+TX1899,AC118,2026-01-06 00:46:00,1418.17,CoffeeShop,Littleland,transfer,pos,success
+TX1900,AC105,2026-01-01 12:26:00,1709.92,CarDealer,West Sarahberg,transfer,online,success
+TX1901,AC114,2026-01-04 17:16:00,4709.88,Shop,Valenciashire,transfer,pos,success
+TX1902,AC119,2026-01-03 11:06:00,3166.81,CoffeeShop,Diazburgh,withdrawal,online,success
+TX1902_1,AC119,2026-01-03 11:07:50,3166.81,CoffeeShop,Diazburgh,withdrawal,online,success
+TX1902_2,AC119,2026-01-03 11:07:14,3166.81,CoffeeShop,Diazburgh,withdrawal,online,success
+TX1903,AC112,2026-01-01 11:37:00,2576.86,Shop,Bestland,withdrawal,pos,success
+TX1904,AC112,2026-01-08 08:24:00,5411.57,CoffeeShop,New Carlosview,payment,online,success
+TX1905,AC100,2026-01-10 14:48:00,239.26,CarDealer,North Sandra,transfer,atm,success
+TX1906,AC106,2026-01-10 21:56:00,9391.26,Grab,Hunterhaven,transfer,pos,success
+TX1907,AC114,2026-01-02 15:48:00,2492.42,SuperMart,Hendersonfurt,transfer,online,success
+TX1908,AC112,2026-01-03 14:58:00,4423.18,Grab,Lake Amandaberg,transfer,online,success
+TX1909,AC118,2026-01-06 05:54:00,14692.32,Shop,Christopherland,withdrawal,atm,success
+TX1910,AC119,2026-01-05 21:08:00,7292.03,SuperMart,Port Eric,payment,atm,success
+TX1910_1,AC119,2026-01-05 21:10:13,7292.03,SuperMart,Port Eric,payment,atm,success
+TX1910_2,AC119,2026-01-05 21:09:40,7292.03,SuperMart,Port Eric,payment,atm,success
+TX1911,AC113,2026-01-07 15:04:00,953.6,SuperMart,Peterland,payment,pos,success
+TX1912,AC109,2026-01-06 10:25:00,-10463.02,CarDealer,Hollybury,transfer,pos,success
+TX1913,AC119,2026-01-08 00:28:00,13636.14,SuperMart,East Christopherchester,payment,pos,success
+TX1914,AC111,2026-01-06 01:49:00,12496.38,SuperMart,South Cherylton,payment,atm,success
+TX1915,AC106,2026-01-02 07:32:00,10006.18,CarDealer,Elizabethburgh,withdrawal,pos,success
+TX1916,AC101,2026-01-06 22:49:00,4555.47,Grab,North Jeantown,transfer,pos,success
+TX1917,AC102,2026-01-10 18:05:00,12892.07,CoffeeShop,South Stephanie,transfer,online,success
+TX1918,AC111,2026-01-03 21:11:00,7295.99,Grab,Garyberg,withdrawal,pos,success
+TX1919,AC101,2026-01-11 06:34:00,7731.3,SuperMart,Jessicaville,transfer,online,success
+TX1920,AC117,2026-01-08 06:28:00,11732.56,Grab,West Lindsayview,withdrawal,online,success
+TX1921,AC109,2026-01-03 16:05:00,13664.88,SuperMart,West Jennifershire,withdrawal,pos,success
+TX1922,AC103,2026-01-08 16:41:00,5456.69,CarDealer,South Spencerstad,transfer,pos,success
+TX1922_1,AC103,2026-01-08 16:43:46,5456.69,CarDealer,South Spencerstad,transfer,pos,success
+TX1922_2,AC103,2026-01-08 16:43:43,5456.69,CarDealer,South Spencerstad,transfer,pos,success
+TX1923,AC102,2026-01-06 17:20:00,5120.46,CoffeeShop,South Micheleburgh,transfer,atm,success
+TX1924,AC116,2026-01-08 21:35:00,3682.52,SuperMart,Ericville,payment,online,success
+TX1925,AC116,2026-01-05 23:46:00,13471.08,CoffeeShop,East Joycetown,payment,pos,success
+TX1925_1,AC116,2026-01-05 23:48:43,13471.08,CoffeeShop,East Joycetown,payment,pos,success
+TX1925_2,AC116,2026-01-05 23:48:06,13471.08,CoffeeShop,East Joycetown,payment,pos,success
+TX1926,AC105,2026-01-02 03:00:00,1272.59,SuperMart,Port Michellebury,payment,pos,success
+TX1927,AC116,2026-01-08 15:09:00,2265.13,CoffeeShop,South Michaelberg,transfer,pos,success
+TX1928,AC111,2026-01-11 06:32:00,4565.54,Grab,Port Austin,transfer,atm,success
+TX1929,AC117,2026-01-05 22:18:00,6693.39,Shop,Walkerbury,withdrawal,atm,success
+TX1930,AC106,2026-01-10 13:41:00,11723.66,CoffeeShop,Moonmouth,payment,online,success
+TX1931,AC117,2026-01-09 12:18:00,11101.04,CoffeeShop,Margaretshire,payment,online,success
+TX1932,AC100,2026-01-05 05:02:00,11355.94,Shop,Davidton,withdrawal,pos,success
+TX1933,AC101,2026-01-09 14:23:00,6341.77,CoffeeShop,East Linda,transfer,atm,success
+TX1934,AC109,2026-01-09 22:35:00,9764.79,Shop,South Caseymouth,withdrawal,online,success
+TX1935,AC117,2026-01-10 11:55:00,11186.63,Shop,Kiaraport,payment,pos,success
+TX1936,AC112,2026-01-10 14:34:00,10723.1,Shop,Christophermouth,withdrawal,online,success
+TX1937,AC103,2026-01-03 12:34:00,12342.82,CarDealer,West Jamesshire,withdrawal,pos,success
+TX1938,AC106,2026-01-02 00:58:00,6373.88,SuperMart,Jodibury,payment,pos,success
+TX1939,AC108,2026-01-07 16:38:00,7784.66,Shop,Richardsonfort,transfer,atm,success
+TX1940,AC105,2026-01-06 21:40:00,10976.02,CarDealer,Lake Rachel,withdrawal,online,success
+TX1941,AC106,2026-01-09 08:22:00,7698.27,SuperMart,East Adam,transfer,online,success
+TX1942,AC113,2026-01-05 12:51:00,13825.54,Grab,Johnsonside,payment,pos,success
+TX1943,AC111,2026-01-03 01:51:00,1767.02,CoffeeShop,Cynthiatown,transfer,pos,success
+TX1944,AC109,2026-01-10 06:01:00,-8844.77,CoffeeShop,Aaronfurt,payment,online,success
+TX1945,AC101,2026-01-02 17:24:00,8213.51,SuperMart,Daltonhaven,transfer,atm,success
+TX1946,AC119,2026-01-05 04:14:00,11720.46,CarDealer,South Travis,payment,atm,success
+TX1947,AC110,2026-01-08 22:11:00,6736.67,Grab,East Jenniferland,withdrawal,atm,success
+TX1948,AC114,2026-01-11 13:49:00,5931.56,CoffeeShop,East Phyllishaven,withdrawal,online,success
+TX1949,AC109,2026-01-07 20:11:00,9452.01,Shop,Haynesstad,withdrawal,online,success
+TX1950,AC118,2026-01-08 08:56:00,8127.97,Shop,Villegasland,payment,pos,success
+TX1950_1,AC118,2026-01-08 08:58:24,8127.97,Shop,Villegasland,payment,pos,success
+TX1950_2,AC118,2026-01-08 08:58:59,8127.97,Shop,Villegasland,payment,pos,success
+TX1951,AC106,2026-01-07 09:13:00,-2696.97,CarDealer,New Dennisfurt,withdrawal,atm,success
+TX1952,AC115,2026-01-08 05:42:00,4807.15,Grab,New Ashleychester,transfer,pos,success
+TX1953,AC103,2026-01-07 08:09:00,4761.42,Grab,East Kelly,withdrawal,online,success
+TX1954,AC113,2026-01-10 01:47:00,1345.34,CarDealer,Sarafurt,payment,atm,success
+TX1955,AC110,2026-01-09 10:46:00,878.47,CarDealer,Louisview,transfer,pos,success
+TX1956,AC119,2026-01-11 13:37:00,1815.37,Shop,North Sherry,payment,pos,success
+TX1957,AC117,2026-01-02 15:25:00,4040.04,SuperMart,Port Kayla,payment,pos,success
+TX1958,AC118,2026-01-11 17:30:00,13292.45,Grab,East Danielmouth,payment,atm,success
+TX1959,AC116,2026-01-07 19:10:00,6101.78,CarDealer,Edwardsville,payment,pos,success
+TX1960,AC117,2026-01-04 02:56:00,8063.5,SuperMart,Tamiborough,payment,online,success
+TX1961,AC100,2026-01-08 09:30:00,4339.45,Grab,Parkerview,transfer,pos,success
+TX1962,AC106,2026-01-05 15:48:00,14988.63,Shop,North Ericport,withdrawal,pos,success
+TX1963,AC103,2026-01-07 17:45:00,1049.96,CarDealer,East Marymouth,withdrawal,atm,success
+TX1964,AC110,2026-01-03 17:34:00,9157.07,CoffeeShop,North Jennifer,withdrawal,pos,success
+TX1965,AC110,2026-01-04 10:33:00,3689.68,CarDealer,Randyton,transfer,atm,success
+TX1966,AC115,2026-01-02 20:30:00,-9697.0,Grab,Jorgeburgh,payment,atm,success
+TX1967,AC117,2026-01-09 06:11:00,10549.79,Grab,South Melissaside,withdrawal,atm,success
+TX1968,AC103,2026-01-10 19:12:00,12241.03,CoffeeShop,North Steven,transfer,atm,success
+TX1969,AC103,2026-01-10 01:42:00,12178.23,SuperMart,North Alexander,transfer,online,success
+TX1970,AC111,2026-01-01 13:24:00,11376.56,CarDealer,East James,payment,atm,success
+TX1971,AC111,2026-01-03 20:23:00,3514.63,Grab,Watsonland,transfer,pos,success
+TX1972,AC112,2026-01-03 17:05:00,108.02,Grab,Samanthaland,transfer,atm,success
+TX1973,AC119,2026-01-03 12:54:00,9897.92,Shop,North Jamesmouth,payment,online,success
+TX1974,AC107,2026-01-02 18:47:00,3895.11,Shop,North Rebecca,withdrawal,pos,success
+TX1975,AC117,2026-01-09 05:13:00,10166.34,SuperMart,Davidmouth,payment,pos,success
+TX1976,AC113,2026-01-01 22:09:00,12808.04,CoffeeShop,East Sandrachester,payment,atm,success
+TX1977,AC107,2026-01-07 05:14:00,11385.57,Grab,Crawfordfurt,transfer,pos,success
+TX1978,AC118,2026-01-05 19:00:00,2919.93,Grab,Thompsonborough,withdrawal,online,success
+TX1979,AC110,2026-01-02 04:19:00,13755.01,CoffeeShop,West Joshua,payment,atm,success
+TX1980,AC110,2026-01-06 05:57:00,12121.08,CoffeeShop,North Christina,payment,online,success
+TX1981,AC107,2026-01-10 19:19:00,817.44,Grab,Lake Kenneth,withdrawal,atm,success
+TX1982,AC101,2026-01-06 09:54:00,8684.44,Grab,Andradefort,transfer,pos,success
+TX1983,AC114,2026-01-10 05:42:00,1913.91,Grab,North Joshuaberg,transfer,atm,success
+TX1984,AC112,2026-01-09 01:01:00,837.79,SuperMart,Gonzalezhaven,payment,atm,success
+TX1985,AC114,2026-01-08 03:43:00,11812.33,SuperMart,Lake Virginia,transfer,pos,success
+TX1986,AC100,2026-01-05 04:44:00,9764.17,SuperMart,South Kimberlystad,withdrawal,pos,success
+TX1987,AC106,2026-01-01 11:21:00,8928.03,Shop,Stephensfort,payment,atm,success
+TX1988,AC107,2026-01-06 19:27:00,10869.62,CarDealer,Robertahaven,payment,online,success
+TX1989,AC109,2026-01-07 04:07:00,14396.16,Shop,Paulburgh,withdrawal,online,success
+TX1990,AC116,2026-01-05 05:38:00,4366.67,Shop,West Carlatown,withdrawal,atm,success
+TX1991,AC113,2026-01-10 15:41:00,12527.79,CoffeeShop,Brianfort,payment,online,success
+TX1992,AC114,2026-01-02 02:40:00,5123.94,Shop,Katiebury,withdrawal,pos,success
+TX1993,AC105,2026-01-05 03:39:00,9241.93,Grab,North John,transfer,online,success
+TX1994,AC119,2026-01-08 14:25:00,3346.15,CarDealer,West Amanda,payment,pos,success
+TX1995,AC112,2026-01-05 02:31:00,12109.26,CarDealer,Port Wendybury,payment,pos,failed
+TX1996,AC106,2026-01-07 15:28:00,1728.72,Shop,Kellyburgh,transfer,online,success
+TX1997,AC105,2026-01-04 13:34:00,2613.02,CoffeeShop,East Brittany,withdrawal,online,success
+TX1998,AC104,2026-01-10 22:09:00,3927.57,SuperMart,Robintown,withdrawal,online,success
+TX1999,AC105,2026-01-06 12:34:00,3603.01,Shop,Staceyshire,withdrawal,pos,success

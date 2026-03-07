@@ -1,6 +1,6 @@
-# etl_phase2_final.py
+# etl_phase2.py
 import pandas as pd
-from sqlalchemy import text
+from sqlalchemy import text, insert
 from db_connection import engine
 
 # ---------- 1️⃣ Create Dimension Tables ----------
@@ -35,18 +35,27 @@ def create_dimensions():
                 UNIQUE(merchant_name, location_id)
             );
         """))
-    print("✅ Dimension tables created")
+        conn.execute(text("""
+            CREATE TABLE IF NOT EXISTS fact_transactions (
+                transaction_id VARCHAR PRIMARY KEY,
+                account_id VARCHAR REFERENCES dim_account(account_id),
+                merchant_id INTEGER REFERENCES dim_merchant(merchant_id),
+                amount NUMERIC,
+                timestamp TIMESTAMP,
+                fraud_flag BOOLEAN DEFAULT FALSE
+            );
+        """))
+    print("✅ Dimension & Fact tables created")
 
 
 # ---------- 2️⃣ Populate Dimension Tables ----------
 def populate_dimensions():
     df = pd.read_sql("SELECT * FROM fact_transactions", engine)
 
-    # --- dim_customer ---
     existing_customers = pd.read_sql("SELECT customer_id FROM dim_customer", engine)
-    existing_accounts = pd.read_sql("SELECT account_id, customer_id FROM dim_account", engine)
+    existing_accounts = pd.read_sql("SELECT account_id FROM dim_account", engine)
 
-    # Identify new customers
+    # --- dim_customer ---
     new_customers = df[['account_id']].drop_duplicates()
     new_customers = new_customers.merge(existing_accounts[['account_id']], on='account_id', how='left', indicator=True)
     new_customers = new_customers[new_customers['_merge'] == 'left_only'].drop(columns=['_merge'])
@@ -62,14 +71,11 @@ def populate_dimensions():
     accounts_to_insert = accounts_to_insert[accounts_to_insert['_merge'] == 'left_only'].drop(columns=['_merge'])
 
     if not accounts_to_insert.empty:
-        # Map customer_id from new_customers
         accounts_to_insert = accounts_to_insert.merge(new_customers[['account_id','customer_id']], on='account_id', how='left')
         accounts_to_insert['account_type'] = 'Checking'
         accounts_to_insert[['account_id','customer_id','account_type']].to_sql('dim_account', engine, if_exists='append', index=False, method='multi')
 
     print("✅ Customer and Account dimensions populated")
-
-    # --- Skip dim_merchant/dim_location if fact already uses merchant_id ---
     print("⚠️ Skipping dim_merchant/dim_location population (fact already uses merchant_id)")
 
 
@@ -77,7 +83,7 @@ def populate_dimensions():
 def populate_fact():
     df_fact = pd.read_sql("SELECT * FROM fact_transactions", engine)
 
-    # Only new transactions (transaction_id is PK)
+    # Only new transactions
     existing_txns = pd.read_sql("SELECT transaction_id FROM fact_transactions", engine)
     df_fact_new = df_fact[~df_fact['transaction_id'].isin(existing_txns['transaction_id'])]
 
@@ -85,14 +91,25 @@ def populate_fact():
         print("⚠️ No new transactions to insert.")
         return
 
-    # Merge with dimension tables to ensure referential integrity
+    # Merge with dimensions
     dim_accounts = pd.read_sql("SELECT account_id FROM dim_account", engine)
     dim_merchants = pd.read_sql("SELECT merchant_id FROM dim_merchant", engine)
 
     df_fact_new = df_fact_new.merge(dim_accounts, on='account_id', how='inner')
     df_fact_new = df_fact_new.merge(dim_merchants, on='merchant_id', how='inner')
 
-    df_fact_new.to_sql('fact_transactions', engine, if_exists='append', index=False, method='multi')
+    # UPSERT to avoid duplicates
+    with engine.begin() as conn:
+        for _, row in df_fact_new.iterrows():
+            stmt = insert("fact_transactions").values(
+                transaction_id=row["transaction_id"],
+                account_id=row["account_id"],
+                merchant_id=row["merchant_id"],
+                amount=row["amount"],
+                timestamp=row["timestamp"],
+                fraud_flag=row["fraud_flag"]
+            ).on_conflict_do_nothing(index_elements=["transaction_id"])
+            conn.execute(stmt)
 
     print(f"✅ {len(df_fact_new)} new transactions inserted into fact table")
 
