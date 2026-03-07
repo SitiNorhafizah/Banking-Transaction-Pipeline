@@ -1,218 +1,172 @@
 # 🏦 Banking Transaction ETL & Fraud Analytics Platform
 
-An end-to-end **Data Engineering & Analytics project** that simulates a banking transaction system with:
+An end-to-end Data Engineering & Analytics project simulating a banking transaction system with:
 
-* A PostgreSQL **data warehouse (Star Schema)**
-* A production-style **ETL pipeline**
-* An interactive **fraud analytics dashboard**
-* Risk scoring & downloadable reports
-
-This project demonstrates the complete data lifecycle:
-**ingestion → transformation → storage → analytics → visualization**
+- PostgreSQL data warehouse (Star Schema)
+- Production-style ETL pipeline
+- Interactive Streamlit fraud analytics dashboard
+- ML-based risk scoring & downloadable reports
 
 ---
 
 ## 🚀 Project Objective
 
-To simulate a real-world banking environment where raw transaction data is:
+Simulate a real-world banking environment where raw transaction data is:
 
-1. Extracted from CSV files
-2. Transformed into dimensional models
-3. Loaded into a PostgreSQL data warehouse
+1. Extracted from CSV files  
+2. Transformed into dimensional models  
+3. Loaded into a PostgreSQL data warehouse  
 4. Visualized through an interactive Streamlit dashboard
 
-The system supports fraud detection, risk scoring, and filtered reporting for stakeholders.
+Supports fraud detection, risk scoring, and filtered reporting for stakeholders.
 
 ---
 
 ## 🏗 System Architecture
 
-```
+
 Raw CSV
-   ↓
+↓
 Python ETL (Pandas + SQLAlchemy)
-   ↓
+↓
 PostgreSQL Data Warehouse (Star Schema)
-   ↓
+↓
 Streamlit Dashboard (Interactive Analytics)
-```
+
 
 ---
 
 ## 🧱 Data Warehouse Design
 
-### Star Schema Model
+**Star Schema**  
 
-### Dimension Tables
+**Dimension Tables:** `dim_customer`, `dim_account`, `dim_merchant`, `dim_location`  
+**Fact Table:** `fact_transactions` (transaction_id, account_id, merchant_id, amount, timestamp, fraud_flag, fraud_score)
 
-* `dim_customer`
-* `dim_account`
-* `dim_merchant`
-* `dim_location`
-
-### Fact Table
-
-* `fact_transactions`
-
-  * transaction_id
-  * account_id
-  * merchant_id
-  * amount
-  * timestamp
-  * fraud_flag
-
-### ETL Guarantees
-
-* ✅ Idempotent loads (no duplicate inserts)
-* ✅ Referential integrity
-* ✅ Clean dimensional modeling
-* ✅ Structured transformation logic
+**ETL Guarantees:**
+- ✅ Idempotent loads (no duplicate inserts)  
+- ✅ Referential integrity  
+- ✅ Clean dimensional modeling  
+- ✅ Structured transformation logic
 
 ---
 
 ## 📊 Dashboard Features
 
-Built using **Streamlit + Plotly**
+Built with Streamlit + Plotly  
 
-### 📌 Key Metrics (KPIs)
+**Key Metrics (KPIs):** Total Transactions, Total Amount, Fraud Cases, Max & Avg Fraud Score  
+**Daily Transaction Volume:** Interactive line chart  
+**Fraud Alerts:** High-risk transactions flagged  
+**Top Risky Accounts & Merchants:** Avg fraud score by account/merchant  
+**Filters:** Account ID, Merchant, Location, Date Range  
+**Downloadable Reports:** Export filtered transactions as CSV
 
-* Total Transactions
-* Total Transaction Amount
-* Fraud Cases
+---
 
-### 📈 Daily Transaction Volume
+## 🤖 Machine Learning Integration
 
-* Interactive line chart
-* Hover tooltips
-* Dynamic filtering
-
-### ⚠ Fraud Risk Scoring
-
-* Top Risky Accounts
-* Top Risky Merchants
-* Fraud intensity visualization
-
-### 🔎 Interactive Filters
-
-* Account ID
-* Merchant
-* Location
-* Date Range
-
-### 💾 Downloadable Reports
-
-* Export filtered transactions as CSV
+- Fraud prediction model trained on historical transactions  
+- Generates `fraud_score` for new transactions  
+- Highlights high-risk transactions in the dashboard
 
 ---
 
 ## 🛠 Tech Stack
 
-**Backend / ETL**
-
-* Python
-* Pandas
-* SQLAlchemy
-
-**Database**
-
-* PostgreSQL
-
-**Visualization**
-
-* Streamlit
-* Plotly
-
-**Environment**
-
-* Virtual Environment (venv)
+- **Backend / ETL:** Python, Pandas, SQLAlchemy  
+- **Database:** PostgreSQL  
+- **Visualization:** Streamlit, Plotly  
+- **Environment:** Virtual Environment (venv)  
 
 ---
 
 ## 📂 Repository Structure
 
-```
+
 Banking-Transaction-Pipeline/
 │
-├── data/                  # Raw transaction CSV
-├── etl/                   # ETL scripts
-│   ├── load_from_csv.py
-│   ├── etl_phase2.py
-│   └── reset.py
-│
+├── data/ # Raw transaction CSV
+├── etl/ # ETL scripts
+│ ├── load_from_csv.py
+│ ├── etl_phase2.py
+│ └── reset.py
+├── ml/ # ML training & scoring
+│ ├── train_model.py
+│ └── score_model.py
 ├── dashboard/
-│   └── app.py
-│
+│ └── app.py
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-```
+
 
 ---
 
 ## ⚙ How to Run Locally
 
-### 1️⃣ Create Virtual Environment
+1️⃣ **Create Virtual Environment**
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-```
 
-### 2️⃣ Install Dependencies
+2️⃣ Install Dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
-### 3️⃣ Ensure PostgreSQL Is Running
+3️⃣ Setup PostgreSQL Database
 
-Create database:
-
-```sql
 CREATE DATABASE banking_dw;
-```
 
-### 4️⃣ Run ETL Pipeline
+4️⃣ Run ETL Pipeline
 
-```bash
 python etl/load_from_csv.py
-```
 
-### 5️⃣ Launch Dashboard
+5️⃣ Train ML Model (Optional)
 
-```bash
+python ml/train_model.py
+
+6️⃣ Launch Dashboard
+
 streamlit run dashboard/app.py
-```
+🔮 Future Enhancements
 
----
+🐳 Docker containerization
 
-## 🎯 Skills Demonstrated
+⏰ Apache Airflow DAG scheduling
 
-* Data Warehouse Modeling (Star Schema)
-* ETL Pipeline Design
-* Incremental & Idempotent Loading
-* SQL Joins & Foreign Keys
-* Data Validation
-* Fraud Risk Scoring Logic
-* Interactive Dashboard Development
-* Production-style Project Structure
+📡 Real-time streaming ingestion
 
----
+🚨 Automated fraud alerting system
 
-## 🔮 Future Enhancements
+🔐 Environment Variables
 
-* 🐳 Docker containerization
-* ⏰ Apache Airflow DAG scheduling
-* 🤖 Machine Learning fraud prediction
-* 📡 Real-time streaming ingestion
-* 🚨 Automated fraud alerting system
+Create a .env file in the root:
 
----
+DB_USER=your_user
+DB_PASSWORD=your_password
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=banking_dw
+🎯 Skills Demonstrated
 
-## 👩‍💻 Author
+Data Warehouse Modeling (Star Schema)
 
-Portfolio project built to demonstrate **Data Engineering and Analytics capabilities** in a financial domain setting.
+ETL Pipeline Design
 
----
+Incremental & Idempotent Loading
 
+SQL Joins & Foreign Keys
 
+Data Validation
+
+Fraud Risk Scoring Logic
+
+Interactive Dashboard Development
+
+Production-style Project Structure
+
+👩‍💻 Author
+
+Portfolio project built to demonstrate Data Engineering and Analytics capabilities in a financial domain setting.
