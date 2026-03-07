@@ -9,11 +9,11 @@ from sklearn.preprocessing import LabelEncoder
 # -------------------------------
 # DATABASE CONFIG
 # -------------------------------
-DB_HOST = "banking_postgres2"  # Use your container name if using Docker
-DB_PORT = 5432
-DB_NAME = "banking_dw"
-DB_USER = "admin"
-DB_PASSWORD = "admin123"
+DB_HOST = os.getenv("DB_HOST")
+DB_PORT = os.getenv("DB_PORT")
+DB_USER = os.getenv("POSTGRES_USER")
+DB_PASSWORD = os.getenv("POSTGRES_PASSWORD")
+DB_NAME = os.getenv("POSTGRES_DB")
 
 engine = create_engine(
     f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
